@@ -197,8 +197,8 @@ for i in colorslist:
 #Convert to HLS for colour ops
 h_base, l_base, s_base = colorsys.rgb_to_hls(r_dark/255, g_dark/255, b_dark/255)
 
-midlight_color = color_triplet(h_base, 0.3, 0.6)
-highlight_color = color_triplet(h_base, 0.75, 0.98)
+midlight_color = color_triplet(h_base, 0.5, 0.5)
+highlight_color = color_triplet(h_base, 0.7, 1.0)
 
 #Default text colour
 foreground = "255,255,255"
@@ -259,7 +259,7 @@ focus_decoration_color = color_triplet(h_base, l_selection + focus_offset,
 plasma_colors = plasma_colors.replace('aaa', panel_background)
 plasma_colors = plasma_colors.replace('bbb', foreground)
 plasma_colors = plasma_colors.replace('ccc', panel_background)
-plasma_colors = plasma_colors.replace('ddd', "255,0,0")
+plasma_colors = plasma_colors.replace('ddd', midlight_color)
 plasma_colors = plasma_colors.replace('eee', highlight_color)
 plasma_colors = plasma_colors.replace('fff', highlight_color)
 plasma_colors = plasma_colors.replace('ggg', highlight_color)
