@@ -38,7 +38,8 @@ BackgroundNormal=eee
 [Colors:Button]
 ForegroundNormal=248,248,248
 BackgroundNormal=fff
-DecorationFocus=ggg
+DecorationFocus=eee
+DecorationHover=ggg
 
 [Colors:Compilmentary]
 BackgroundNormal=4,4,222
@@ -167,75 +168,53 @@ thief = ColorThief(os.path.expanduser('~/.cullax.png'))
 colorslist = thief.get_palette(color_count=3)
 os.remove(os.path.expanduser('~/.cullax.png'))
 
-local_lowest = 766
-r_base = 0.0
-g_base = 0.0
-b_base = 0.0
+image_darkest = 766
+image_lightest = 0
+r_dark = 0.0
+g_dark = 0.0
+b_dark = 0.0
+#r_light = 0.0
+#g_light = 0.0
+#b_light = 0.0
 
 for i in colorslist:
-    print ('r {}, g {}, b {}'.format(i[0], i[1], i[2]))
+    #print ('r {}, g {}, b {}'.format(i[0], i[1], i[2]))
     local_sum = i[0] + i[1] + i[2]
     
-    if local_sum < local_lowest:
-        local_lowest = local_sum
-        r_base = float(i[0])
-        g_base = float(i[1])
-        b_base = float(i[2])
-
-print(r_base, g_base, b_base)
-#sys.exit()
-#Choose darkest returned colour
-#image_value = 1.0
-
-
-#for x in colorslist:
-    #r, g, b = tuple(int(x[i:i+2], 16) for i in (1, 3, 5))
-    #h, s, v = colorsys.rgb_to_hsv(r/255, g/255, b/255)
-
-    #if v <= image_value:   #Choose darkest
-        #r_base = r
-        #g_base = g
-        #b_base = b
-        #image_value = v
+    if local_sum < image_darkest:
+        image_darkest = local_sum
+        r_dark = float(i[0])
+        g_dark = float(i[1])
+        b_dark = float(i[2])
+    
+    #if local_sum > image_lightest:
+        #image_lightest = local_sum
+        #r_light = float(i[0])
+        #g_light = float(i[1])
+        #b_light = float(i[2])
 
 
 #Convert to HLS for colour ops
-h_base, l_base, s_base = colorsys.rgb_to_hls(r_base/255, g_base/255, b_base/255)
+h_base, l_base, s_base = colorsys.rgb_to_hls(r_dark/255, g_dark/255, b_dark/255)
 
-
-print("BASE HSL  ", h_base, s_base, l_base)
-
-l_base = 0.3
-s_base = 0.6
-
-#Boundary check
-if s_base > 0.99:
-    s_base = 0.99
-
-#Dialog background adjustment amounts
-l_offset = 0.09
-s_offset = 0.09
+midlight_color = color_triplet(h_base, 0.3, 0.6)
+highlight_color = color_triplet(h_base, 0.75, 0.98)
 
 #Default text colour
 foreground = "255,255,255"
 
-#Minimised taskbar
-minimised_task = "36,36,36"
 
 #Lightness threshold for dark text
-if l_base > 0.62:
-    foreground = "16,16,16"
-    #offset = 0 - offset
-    light1 = 0.0
-    light2 = 0.0
-    minimised_task = "248,248,248"
+#if l_base > 0.62:
+    #foreground = "16,16,16"
+    ##offset = 0 - offset
+    #light1 = 0.0
+    #light2 = 0.0
+    #minimised_task = "248,248,248"
 
 #Panel Background
-panel_background = (','.join([str(int(r_base)), str(int(g_base)), str(int(b_base))]))
-print(panel_background)
-#panel_background = (color_triplet(h_base, l_base, s_base))
+panel_background = (','.join([str(int(r_dark)), str(int(g_dark)), str(int(b_dark))]))
 
-print(color_triplet(h_base,l_base,s_base))
 #Check for monochrome
 if s_base < 0.09:
     s_frame = 0.0
@@ -243,13 +222,6 @@ if s_base < 0.09:
     s_selection = 0.0
     s_base = 0.0
     s_offset = 0.0
-
-#Hues relative to base
-#l_dialog = l_base + l_offset
-#s_dialog = s_base - s_offset
-
-#Alternate shade for dialog backgrounds
-#dialog_background = color_triplet(h_base, l_dialog, s_dialog)
 
 #Hues with set parameters
 s_frame = s_base
@@ -267,13 +239,15 @@ l_selection = 0.45
 #s_selection = 0.45
 
 #Frame and button hover
-frame = color_triplet(h_base, l_frame, s_frame)
+#frame = color_triplet(h_base, l_frame, s_frame)
 
 #Plasma selection and button background
-highlight_color = color_triplet(h_base, l_button, s_button)
+#highlight_color = color_triplet(h_base, l_button, s_button)
 
 #Color Scheme Window Decoration and Selection
-window_decoration_color = color_triplet(h_base, l_selection, s_selection)
+#window_decoration_color = color_triplet(h_base, l_selection, s_selection)
+#window_decoration_color = (','.join([str(int(r_light)), str(int(g_light)), str(int(b_light))]))
+#window_decoration_color = theme_highlight
 
 #Color Scheme Focus
 focus_offset = 0.06
@@ -285,10 +259,10 @@ focus_decoration_color = color_triplet(h_base, l_selection + focus_offset,
 plasma_colors = plasma_colors.replace('aaa', panel_background)
 plasma_colors = plasma_colors.replace('bbb', foreground)
 plasma_colors = plasma_colors.replace('ccc', panel_background)
-plasma_colors = plasma_colors.replace('ddd', frame)
+plasma_colors = plasma_colors.replace('ddd', "255,0,0")
 plasma_colors = plasma_colors.replace('eee', highlight_color)
 plasma_colors = plasma_colors.replace('fff', highlight_color)
-plasma_colors = plasma_colors.replace('ggg', minimised_task)
+plasma_colors = plasma_colors.replace('ggg', highlight_color)
 
 try:
     with open(os.path.expanduser( \
@@ -313,7 +287,7 @@ except IOError as e:
 try:
     subprocess.run(['kwriteconfig5', '--file=kdeglobals',
                     '--group=Colors:Selection',
-                    '--key=BackgroundNormal', window_decoration_color])
+                    '--key=BackgroundNormal', midlight_color])
     subprocess.run(['kwriteconfig5', '--file=kdeglobals',
                     '--group=Colors:View',
                     '--key=DecorationFocus',
@@ -321,7 +295,7 @@ try:
     subprocess.run(['kwriteconfig5', '--file=kdeglobals',
                     '--group=WM',
                     '--key=activeBackground',
-                    window_decoration_color])
+                    midlight_color])
 except:
     fatal("Fatal. Unable to run kwriteconfig.")
 
