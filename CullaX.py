@@ -197,7 +197,7 @@ for i in colorslist:
 #Convert to HLS for colour ops
 h_base, l_base, s_base = colorsys.rgb_to_hls(r_dark/255, g_dark/255, b_dark/255)
 
-midlight_color = color_triplet(h_base, 0.5, 0.5)
+midlight_color = color_triplet(h_base, 0.45, 0.35)
 highlight_color = color_triplet(h_base, 0.7, 1.0)
 
 #Default text colour
