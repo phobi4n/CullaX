@@ -15,7 +15,7 @@
    viewBox="0 0 139.46453 42.183931"
    version="1.1"
    height="42.183956"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="button.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -30,9 +30,9 @@
      inkscape:window-height="843"
      id="namedview4532"
      showgrid="false"
-     inkscape:zoom="12.88714"
-     inkscape:cx="103.15922"
-     inkscape:cy="25.579249"
+     inkscape:zoom="9.115"
+     inkscape:cx="3.723"
+     inkscape:cy="71.29"
      inkscape:current-layer="svg2"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
@@ -328,12 +328,12 @@
   </metadata>
   <rect
      id="normal-center"
-     y="-31.000002"
-     x="-31.000017"
-     width="24.000013"
-     height="24.000013"
-     class="ColorScheme-ButtonBackground"
-     style="fill:currentColor;fill-opacity:0.6;fill-rule:evenodd;stroke-width:2.00000119"
+     y="-31"
+     x="-31"
+     width="24"
+     height="24"
+     class="ColorScheme-Background"
+     style="fill:currentColor;fill-opacity:0.9;fill-rule:evenodd;stroke-width:2"
      transform="scale(-1)" />
   <rect
      transform="scale(-1)"
@@ -355,12 +355,12 @@
      transform="scale(-1)" />
   <rect
      transform="rotate(-90)"
-     style="fill:currentColor;fill-opacity:0.6;fill-rule:evenodd;stroke-width:0.57735062"
-     class="ColorScheme-ButtonBackground"
-     height="24.000013"
+     style="fill:currentColor;fill-opacity:0.9;fill-rule:evenodd;stroke-width:0.5774"
+     class="ColorScheme-Background"
+     height="24"
      width="6"
-     x="-6.9999852"
-     y="7.0000095"
+     x="-7"
+     y="7"
      id="normal-top" />
   <rect
      id="normal-bottom"
@@ -969,4 +969,34 @@
        id="toolbutton-pressed-hint-bottom-margin"
        style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   </g>
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.7071"
+     id="normal-hint-bottom-margin-3"
+     width="2"
+     height="3"
+     x="-0.1223"
+     y="-27.11" />
+  <rect
+     y="-43.43"
+     x="0.09713"
+     height="3"
+     width="2"
+     id="normal-hint-top-margin-6"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.7071" />
+  <rect
+     transform="rotate(-90)"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.7071"
+     id="normal-hint-left-margin-7"
+     width="2"
+     height="3"
+     x="34.11"
+     y="-13.68" />
+  <rect
+     y="9.005"
+     x="37.19"
+     height="3"
+     width="2"
+     id="normal-hint-right-margin-5"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.7071"
+     transform="rotate(-90)" />
 </svg>
