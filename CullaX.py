@@ -197,11 +197,11 @@ for i in colorslist:
 #Convert to HLS for colour ops
 h_base, l_base, s_base = colorsys.rgb_to_hls(r_dark/255, g_dark/255, b_dark/255)
 
-midlight_color = color_triplet(h_base, 0.45, 0.35)
+midlight_color = color_triplet(h_base, 0.45, 0.3)
 highlight_color = color_triplet(h_base, 0.7, 1.0)
 
 #Default text colour
-foreground = "255,255,255"
+foreground = color_triplet(h_base, 0.96, 0.95)
 
 
 #Lightness threshold for dark text
@@ -261,7 +261,7 @@ plasma_colors = plasma_colors.replace('bbb', foreground)
 plasma_colors = plasma_colors.replace('ccc', panel_background)
 plasma_colors = plasma_colors.replace('ddd', midlight_color)
 plasma_colors = plasma_colors.replace('eee', highlight_color)
-plasma_colors = plasma_colors.replace('fff', highlight_color)
+plasma_colors = plasma_colors.replace('fff', midlight_color)
 plasma_colors = plasma_colors.replace('ggg', highlight_color)
 
 try:
