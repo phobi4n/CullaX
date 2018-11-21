@@ -30,9 +30,9 @@
      inkscape:window-height="843"
      id="namedview4532"
      showgrid="false"
-     inkscape:zoom="9.115"
-     inkscape:cx="3.723"
-     inkscape:cy="71.29"
+     inkscape:zoom="25.78"
+     inkscape:cx="66.68"
+     inkscape:cy="16.53"
      inkscape:current-layer="svg2"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
@@ -332,8 +332,8 @@
      x="-31"
      width="24"
      height="24"
-     class="ColorScheme-Background"
-     style="fill:currentColor;fill-opacity:0.9;fill-rule:evenodd;stroke-width:2"
+     class="ColorScheme-ButtonBackground"
+     style="fill:currentColor;fill-opacity:0.6;fill-rule:evenodd;stroke-width:2"
      transform="scale(-1)" />
   <rect
      transform="scale(-1)"
@@ -355,8 +355,8 @@
      transform="scale(-1)" />
   <rect
      transform="rotate(-90)"
-     style="fill:currentColor;fill-opacity:0.9;fill-rule:evenodd;stroke-width:0.5774"
-     class="ColorScheme-Background"
+     style="fill:currentColor;fill-opacity:0.6;fill-rule:evenodd;stroke-width:0.5774"
+     class="ColorScheme-ButtonBackground"
      height="24"
      width="6"
      x="-7"
@@ -553,12 +553,12 @@
   </g>
   <rect
      transform="scale(-1)"
-     style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:2.00000119"
-     class="ColorScheme-Text"
-     height="24.000013"
-     width="24.000013"
-     x="-75.885117"
-     y="-31.458014"
+     style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:2"
+     class="ColorScheme-ButtonBackground"
+     height="24"
+     width="24"
+     x="-75.89"
+     y="-31.46"
      id="pressed-center" />
   <rect
      id="normal-bottomleft"
@@ -610,12 +610,12 @@
        id="rect915" />
     <rect
        transform="scale(-1)"
-       style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:0.40824854"
-       class="ColorScheme-Text"
-       height="1.0000006"
-       width="24.000013"
-       x="-76.916046"
-       y="-3.0560033"
+       style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:0.4082"
+       class="ColorScheme-ButtonBackground"
+       height="1"
+       width="24"
+       x="-76.92"
+       y="-3.056"
        id="rect909" />
   </g>
   <g
@@ -632,12 +632,12 @@
        transform="rotate(-90)" />
     <rect
        id="rect913"
-       y="-3.0560033"
-       x="-76.916046"
-       width="24.000013"
-       height="1.0000006"
-       class="ColorScheme-Text"
-       style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:0.40824854"
+       y="-3.056"
+       x="-76.92"
+       width="24"
+       height="1"
+       class="ColorScheme-ButtonBackground"
+       style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:0.4082"
        transform="scale(-1)" />
   </g>
   <g
@@ -654,12 +654,12 @@
        transform="rotate(-90)" />
     <rect
        id="rect919"
-       y="-3.0560033"
-       x="-76.916046"
-       width="24.000013"
-       height="1.0000006"
-       class="ColorScheme-Text"
-       style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:0.40824854"
+       y="-3.056"
+       x="-76.92"
+       width="24"
+       height="1"
+       class="ColorScheme-ButtonBackground"
+       style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:0.4082"
        transform="scale(-1)" />
   </g>
   <g
@@ -676,12 +676,12 @@
        id="rect923" />
     <rect
        transform="scale(-1)"
-       style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:0.40824854"
-       class="ColorScheme-Text"
-       height="1.0000006"
-       width="24.000013"
-       x="-76.916046"
-       y="-3.0560033"
+       style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:0.4082"
+       class="ColorScheme-ButtonBackground"
+       height="1"
+       width="24"
+       x="-76.92"
+       y="-3.056"
        id="rect925" />
   </g>
   <g
@@ -695,12 +695,12 @@
        inkscape:connector-curvature="0" />
     <rect
        id="rect933"
-       y="-31.45896"
-       x="-46.328125"
-       width="1.0000006"
-       height="1.0000006"
-       class="ColorScheme-Text"
-       style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:0.08333339"
+       y="-31.46"
+       x="-46.33"
+       width="1"
+       height="1"
+       class="ColorScheme-ButtonBackground"
+       style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:0.0833"
        transform="scale(-1)" />
   </g>
   <g
@@ -714,12 +714,12 @@
        id="path940" />
     <rect
        transform="scale(-1)"
-       style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:0.08333339"
-       class="ColorScheme-Text"
-       height="1.0000006"
-       width="1.0000006"
-       x="-46.328125"
-       y="-31.45896"
+       style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:0.0833"
+       class="ColorScheme-ButtonBackground"
+       height="1"
+       width="1"
+       x="-46.33"
+       y="-31.46"
        id="rect942" />
   </g>
   <g
@@ -733,12 +733,12 @@
        id="path946" />
     <rect
        transform="scale(-1)"
-       style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:0.08333339"
-       class="ColorScheme-Text"
-       height="1.0000006"
-       width="1.0000006"
-       x="-46.328125"
-       y="-31.45896"
+       style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:0.0833"
+       class="ColorScheme-ButtonBackground"
+       height="1"
+       width="1"
+       x="-46.33"
+       y="-31.46"
        id="rect948" />
   </g>
   <g
@@ -752,12 +752,12 @@
        inkscape:connector-curvature="0" />
     <rect
        id="rect954"
-       y="-31.45896"
-       x="-46.328125"
-       width="1.0000006"
-       height="1.0000006"
-       class="ColorScheme-Text"
-       style="fill:currentColor;fill-opacity:0.1;fill-rule:evenodd;stroke-width:0.08333339"
+       y="-31.46"
+       x="-46.33"
+       width="1"
+       height="1"
+       class="ColorScheme-ButtonBackground"
+       style="fill:currentColor;fill-opacity:0.2;fill-rule:evenodd;stroke-width:0.0833"
        transform="scale(-1)" />
   </g>
   <rect
@@ -969,34 +969,4 @@
        id="toolbutton-pressed-hint-bottom-margin"
        style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   </g>
-  <rect
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.7071"
-     id="normal-hint-bottom-margin-3"
-     width="2"
-     height="3"
-     x="-0.1223"
-     y="-27.11" />
-  <rect
-     y="-43.43"
-     x="0.09713"
-     height="3"
-     width="2"
-     id="normal-hint-top-margin-6"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.7071" />
-  <rect
-     transform="rotate(-90)"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.7071"
-     id="normal-hint-left-margin-7"
-     width="2"
-     height="3"
-     x="34.11"
-     y="-13.68" />
-  <rect
-     y="9.005"
-     x="37.19"
-     height="3"
-     width="2"
-     id="normal-hint-right-margin-5"
-     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.7071"
-     transform="rotate(-90)" />
 </svg>
