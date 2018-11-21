@@ -110,7 +110,7 @@ def fatal(message):
     print(message)
     sys.exit(1)
 
-#---------------- Culla ------------------------------------------------
+#---------------- CullaX ------------------------------------------------
 #Raise flag when finding correct session in plasmarc
 flag = False
 #Holder for current activity ID
@@ -165,7 +165,7 @@ tmp_img = Image.open(wallpaper.rstrip())
 tmp_img = tmp_img.resize((512, 512))
 tmp_img.save(os.path.expanduser('~/.cullax.png'))
 thief = ColorThief(os.path.expanduser('~/.cullax.png'))
-colorslist = thief.get_palette(color_count=3)
+colorslist = thief.get_palette(color_count=2)
 os.remove(os.path.expanduser('~/.cullax.png'))
 
 image_darkest = 766
