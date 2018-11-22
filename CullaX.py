@@ -165,7 +165,8 @@ tmp_img = Image.open(wallpaper.rstrip())
 tmp_img = tmp_img.resize((512, 512))
 tmp_img.save(os.path.expanduser('~/.cullax.png'))
 thief = ColorThief(os.path.expanduser('~/.cullax.png'))
-colorslist = thief.get_palette(color_count=2)
+colorslist = thief.get_palette(color_count=6)
+#dom_color = thief.get_color(quality=5)
 os.remove(os.path.expanduser('~/.cullax.png'))
 
 image_darkest = 766
@@ -193,11 +194,15 @@ for i in colorslist:
         #g_light = float(i[1])
         #b_light = float(i[2])
 
+print("R: {}, G: {}, B: {}".format(r_dark, g_dark, b_dark))
 
+#r_dark, g_dark, b_dark = dom_color
+#print("R: {}, G: {}, B: {}".format(r_dark, g_dark, b_dark))
+#sys.exit()
 #Convert to HLS for colour ops
 h_base, l_base, s_base = colorsys.rgb_to_hls(r_dark/255, g_dark/255, b_dark/255)
 
-midlight_color = color_triplet(h_base, 0.45, 0.35)
+midlight_color = color_triplet(h_base, 0.45, 0.4)
 highlight_color = color_triplet(h_base, 0.7, 1.0)
 
 #Default text colour
