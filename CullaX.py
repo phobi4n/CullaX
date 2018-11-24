@@ -180,7 +180,6 @@ for i in colorslist:
         g_dark = float(i[1])
         b_dark = float(i[2])
     
-
 #Convert to HLS for colour ops
 h_base, l_base, s_base = colorsys.rgb_to_hls(r_dark/255, g_dark/255, b_dark/255)
 
@@ -209,7 +208,7 @@ highlight_color = color_triplet(h_highlight, 0.8, s_highlight)
 
 
 #Default text colour
-foreground = color_triplet(h_base, 0.96, 0.95)
+foreground = color_triplet(h_base, 0.98, 0.95)
 
 #Panel Background
 #panel_background = (','.join([str(int(r_dark)), str(int(g_dark)), str(int(b_dark))]))
