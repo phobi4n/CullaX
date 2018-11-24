@@ -165,13 +165,21 @@ tmp_img = Image.open(wallpaper.rstrip())
 tmp_img = tmp_img.resize((512, 512))
 tmp_img.save(os.path.expanduser('~/.cullax.png'))
 thief = ColorThief(os.path.expanduser('~/.cullax.png'))
-colorslist = thief.get_palette(color_count=3)
+colorslist = thief.get_palette(color_count=6)
+#dom_color = thief.get_color(quality=5)
 os.remove(os.path.expanduser('~/.cullax.png'))
 
-# Get darkest from palette list
 image_darkest = 766
+image_lightest = 0
+r_dark = 0.0
+g_dark = 0.0
+b_dark = 0.0
+#r_light = 0.0
+#g_light = 0.0
+#b_light = 0.0
 
 for i in colorslist:
+    #print ('r {}, g {}, b {}'.format(i[0], i[1], i[2]))
     local_sum = i[0] + i[1] + i[2]
     
     if local_sum < image_darkest:
@@ -180,40 +188,79 @@ for i in colorslist:
         g_dark = float(i[1])
         b_dark = float(i[2])
     
+    #if local_sum > image_lightest:
+        #image_lightest = local_sum
+        #r_light = i[0]
+        #g_light = i[1]
+        #b_light = i[2]
 
+print("Dark  R: {}, G: {}, B: {}".format(r_dark, g_dark, b_dark))
+#print("Light R: {}, G: {}, B: {}".format(r_light, g_light, b_light))
+
+#r_dark, g_dark, b_dark = dom_color
+#print("R: {}, G: {}, B: {}".format(r_dark, g_dark, b_dark))
+#sys.exit()
 #Convert to HLS for colour ops
 h_base, l_base, s_base = colorsys.rgb_to_hls(r_dark/255, g_dark/255, b_dark/255)
 
-if s_base < 0.011:
-    s_midlight = 0.0
-    s_highlight = 0.0
-    h_midlight = 0.0
-    h_highlight = 0.0
-else:
-    s_midlight = s_base / 1.5
-    s_highlight = s_base + ( (1.0 - s_base) / 1.5)
-    h_midlight = h_base - 0.03
-    
-    if h_midlight < 0.0:
-        h_midlight += 1.0
-    
-    h_highlight = h_base - 0.03
-    
-    if h_highlight < 0.0:
-        h_highlight += 1.0
-    
-
-midlight_color = color_triplet(h_midlight, 0.45, s_midlight)
-highlight_color = color_triplet(h_highlight, 0.8, s_highlight)
-
-
+midlight_color = color_triplet(h_base, 0.45, 0.4)
+highlight_color = color_triplet(h_base, 0.7, 1.0)
 
 #Default text colour
 foreground = color_triplet(h_base, 0.96, 0.95)
 
+
+#Lightness threshold for dark text
+#if l_base > 0.62:
+    #foreground = "16,16,16"
+    ##offset = 0 - offset
+    #light1 = 0.0
+    #light2 = 0.0
+    #minimised_task = "248,248,248"
+
 #Panel Background
-#panel_background = (','.join([str(int(r_dark)), str(int(g_dark)), str(int(b_dark))]))
-panel_background = color_triplet(h_base, 0.2, s_base)
+panel_background = (','.join([str(int(r_dark)), str(int(g_dark)), str(int(b_dark))]))
+
+#Check for monochrome
+if s_base < 0.09:
+    s_frame = 0.0
+    s_button = 0.0
+    s_selection = 0.0
+    s_base = 0.0
+    s_offset = 0.0
+
+#Hues with set parameters
+s_frame = s_base
+s_button = s_base
+s_selection = s_base
+
+if s_base < 0.88 and s_base > 0.09:
+    s_frame = s_base + 0.12
+    s_button = s_base + 0.12
+    s_selection = s_base + 0.12
+
+l_frame = 0.45
+l_button = 0.4
+l_selection = 0.45
+#s_selection = 0.45
+
+#Frame and button hover
+#frame = color_triplet(h_base, l_frame, s_frame)
+
+#Plasma selection and button background
+#highlight_color = color_triplet(h_base, l_button, s_button)
+
+#Color Scheme Window Decoration and Selection
+#window_decoration_color = color_triplet(h_base, l_selection, s_selection)
+#window_decoration_color = (','.join([str(int(r_light)), str(int(g_light)), str(int(b_light))]))
+#window_decoration_color = theme_highlight
+
+#Color Scheme Focus
+focus_offset = 0.06
+
+#Focus
+focus_decoration_color = color_triplet(h_base, l_selection + focus_offset,
+                                       s_selection - focus_offset)
 
 plasma_colors = plasma_colors.replace('aaa', panel_background)
 plasma_colors = plasma_colors.replace('bbb', foreground)
@@ -222,8 +269,6 @@ plasma_colors = plasma_colors.replace('ddd', midlight_color)
 plasma_colors = plasma_colors.replace('eee', highlight_color)
 plasma_colors = plasma_colors.replace('fff', midlight_color)
 plasma_colors = plasma_colors.replace('ggg', highlight_color)
-focus_decoration_color = "255,0,0"
-
 
 try:
     with open(os.path.expanduser( \
@@ -245,23 +290,20 @@ except IOError as e:
     print(e)
     fatal("Fatal. Unable to run kwriteconfig.")
 
-
-
-# ---- Set Global Colours ----
-#try:
-    #subprocess.run(['kwriteconfig5', '--file=kdeglobals',
-                    #'--group=Colors:Selection',
-                    #'--key=BackgroundNormal', midlight_color])
-    #subprocess.run(['kwriteconfig5', '--file=kdeglobals',
-                    #'--group=Colors:View',
-                    #'--key=DecorationFocus',
-                    #focus_decoration_color])
-    #subprocess.run(['kwriteconfig5', '--file=kdeglobals',
-                    #'--group=WM',
-                    #'--key=activeBackground',
-                    #midlight_color])
-#except:
-    #fatal("Fatal. Unable to run kwriteconfig.")
+try:
+    subprocess.run(['kwriteconfig5', '--file=kdeglobals',
+                    '--group=Colors:Selection',
+                    '--key=BackgroundNormal', midlight_color])
+    subprocess.run(['kwriteconfig5', '--file=kdeglobals',
+                    '--group=Colors:View',
+                    '--key=DecorationFocus',
+                    focus_decoration_color])
+    subprocess.run(['kwriteconfig5', '--file=kdeglobals',
+                    '--group=WM',
+                    '--key=activeBackground',
+                    midlight_color])
+except:
+    fatal("Fatal. Unable to run kwriteconfig.")
 
 
 #If Culla window dec is active, update it
