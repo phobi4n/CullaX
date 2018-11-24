@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6908543"
-     inkscape:cx="139.5588"
-     inkscape:cy="77.67776"
+     inkscape:zoom="43.053669"
+     inkscape:cx="202.2154"
+     inkscape:cy="20.905439"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -81,7 +81,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -363,7 +363,7 @@
        height="64"
        width="64"
        id="focus-center"
-       style="opacity:0.33000004;fill:#000000;stroke-width:0.50402343" />
+       style="opacity:0.2;fill:#000000;stroke-width:0.50402343" />
     <rect
        style="fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.57735008"
        id="focus-hint-top-margin"
@@ -412,7 +412,7 @@
          y="-417.04172" />
       <rect
          transform="rotate(90)"
-         style="opacity:0.33000004;fill:#000000;stroke-width:0.06300293"
+         style="opacity:0.8;fill:#000000;stroke-width:0.06300293"
          id="rect92"
          width="1"
          height="64"
@@ -425,7 +425,7 @@
          height="64"
          width="1"
          id="rect94"
-         class="ColorScheme-ButtonHover"
+         class="ColorScheme-ViewHover"
          style="opacity:1;fill:currentColor;stroke-width:0.06300293" />
     </g>
     <g
@@ -439,7 +439,7 @@
          x="417.48019"
          y="567.91681" />
       <path
-         style="opacity:0.33000004;fill:#000000;fill-opacity:1;stroke-width:0.23710673"
+         style="opacity:0.8;fill:#000000;fill-opacity:1;stroke-width:0.23710673"
          id="path285"
          sodipodi:type="arc"
          sodipodi:cx="417.48019"
@@ -451,7 +451,7 @@
          d="m 418.48019,-573.91681 a 1,1 0 0 1 -1,1 l 0,-1 z"
          transform="scale(1,-1)" />
       <path
-         class="ColorScheme-ButtonHover"
+         class="ColorScheme-ViewHover"
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.47421345"
          d="m 417.48019,571.91681 v 1 a 1,1 0 0 1 1,1 h 1 a 2,2 0 0 0 -2,-2 z"
          id="CCC"
@@ -474,11 +474,11 @@
          height="64"
          width="1"
          id="rect309"
-         style="opacity:0.33000004;fill:#000000;stroke-width:0.06300293"
+         style="opacity:0.8;fill:#000000;stroke-width:0.06300293"
          transform="rotate(90)" />
       <rect
          style="opacity:1;fill:currentColor;stroke-width:0.06300293"
-         class="ColorScheme-ButtonHover"
+         class="ColorScheme-ViewHover"
          id="rect311"
          width="1"
          height="64"
@@ -503,11 +503,11 @@
          height="64"
          width="1"
          id="rect93"
-         style="opacity:0.33000004;fill:#000000;stroke-width:0.06300293"
+         style="opacity:0.8;fill:#000000;stroke-width:0.06300293"
          transform="rotate(90)" />
       <rect
          style="opacity:1;fill:currentColor;stroke-width:0.06300293"
-         class="ColorScheme-ButtonHover"
+         class="ColorScheme-ViewHover"
          id="rect95"
          width="1"
          height="64"
@@ -532,11 +532,11 @@
          height="64"
          width="1"
          id="rect101"
-         style="opacity:0.33000004;fill:#000000;stroke-width:0.06300293"
+         style="opacity:0.8;fill:#000000;stroke-width:0.06300293"
          transform="rotate(90)" />
       <rect
          style="opacity:1;fill:currentColor;stroke-width:0.06300293"
-         class="ColorScheme-ButtonHover"
+         class="ColorScheme-ViewHover"
          id="rect103"
          width="1"
          height="64"
@@ -565,13 +565,13 @@
          sodipodi:cx="417.48019"
          sodipodi:type="arc"
          id="path98"
-         style="opacity:0.33000004;fill:#000000;fill-opacity:1;stroke-width:0.23710673" />
+         style="opacity:0.8;fill:#000000;fill-opacity:1;stroke-width:0.23710673" />
       <path
          inkscape:connector-curvature="0"
          id="path100"
          d="m 417.48019,571.91681 v 1 a 1,1 0 0 1 1,1 h 1 a 2,2 0 0 0 -2,-2 z"
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.47421345"
-         class="ColorScheme-ButtonHover" />
+         class="ColorScheme-ViewHover" />
     </g>
     <g
        id="focus-bottomright"
@@ -594,13 +594,13 @@
          sodipodi:cx="417.48019"
          sodipodi:type="arc"
          id="path106"
-         style="opacity:0.33000004;fill:#000000;fill-opacity:1;stroke-width:0.23710673" />
+         style="opacity:0.8;fill:#000000;fill-opacity:1;stroke-width:0.23710673" />
       <path
          inkscape:connector-curvature="0"
          id="path108"
          d="m 417.48019,571.91681 v 1 a 1,1 0 0 1 1,1 h 1 a 2,2 0 0 0 -2,-2 z"
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.47421345"
-         class="ColorScheme-ButtonHover" />
+         class="ColorScheme-ViewHover" />
     </g>
     <g
        id="focus-bottomleft"
@@ -623,13 +623,13 @@
          sodipodi:cx="417.48019"
          sodipodi:type="arc"
          id="path114"
-         style="opacity:0.33000004;fill:#000000;fill-opacity:1;stroke-width:0.23710673" />
+         style="opacity:0.8;fill:#000000;fill-opacity:1;stroke-width:0.23710673" />
       <path
          inkscape:connector-curvature="0"
          id="path116"
          d="m 417.48019,571.91681 v 1 a 1,1 0 0 1 1,1 h 1 a 2,2 0 0 0 -2,-2 z"
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.47421345"
-         class="ColorScheme-ButtonHover" />
+         class="ColorScheme-ViewHover" />
     </g>
   </g>
 </svg>

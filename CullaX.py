@@ -190,20 +190,21 @@ if s_base < 0.011:
     h_highlight = 0.0
 else:
     s_midlight = s_base / 1.5
-    s_highlight = s_base + ( (1.0 - s_base) / 1.5)
+    #s_highlight = s_base + ( (1.0 - s_base) / 1.5)
+    s_highlight = s_base
     h_midlight = h_base - 0.03
     
     if h_midlight < 0.0:
         h_midlight += 1.0
     
-    h_highlight = h_base - 0.03
+    h_highlight = h_base - 0.05
     
     if h_highlight < 0.0:
         h_highlight += 1.0
     
 
-midlight_color = color_triplet(h_midlight, 0.45, s_midlight)
-highlight_color = color_triplet(h_highlight, 0.8, s_highlight)
+midlight_color = color_triplet(h_midlight, 0.5, s_midlight)
+highlight_color = color_triplet(h_highlight, 0.75, s_highlight)
 
 
 
