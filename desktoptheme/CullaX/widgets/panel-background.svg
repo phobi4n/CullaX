@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.84"
-     inkscape:cx="193.20959"
-     inkscape:cy="79.78"
+     inkscape:zoom="30.66015"
+     inkscape:cx="182.66641"
+     inkscape:cy="26.395017"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -537,7 +537,7 @@
        width="24"
        id="south-center"
        class="ColorScheme-Background"
-       style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+       style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     <g
        id="shadow-topleft"
        transform="matrix(-1,0,0,1,-1201,5.5)">
@@ -569,24 +569,24 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="translate(0.1,8.8)"
+       transform="translate(0.1000061,8.7999878)"
        id="south-top">
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect943"
          class="ColorScheme-Background"
          width="24"
          height="3"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="1"
          width="24"
          class="ColorScheme-ViewHover"
          id="HLL"
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
        id="south-bottom"
@@ -598,7 +598,7 @@
          width="24"
          class="ColorScheme-Background"
          id="rect941"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
       <rect
          style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect944"
@@ -618,7 +618,7 @@
          width="24"
          class="ColorScheme-Background"
          id="rect952"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
       <rect
          style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect954"
@@ -630,22 +630,22 @@
     </g>
     <g
        id="south-left"
-       transform="rotate(-90,-438.2,460.9)">
+       transform="rotate(-90,-438.1503,460.8503)">
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="3"
          width="24"
          class="ColorScheme-Background"
          id="rect962"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect964"
          class="ColorScheme-ViewHover"
          width="24"
          height="1"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
     </g>
     <g
@@ -662,7 +662,7 @@
          sodipodi:type="arc"
          id="path938"
          class="ColorScheme-Background"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          transform="scale(1,-1)" />
       <path
          style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
@@ -673,16 +673,16 @@
     </g>
     <g
        id="south-topleft"
-       transform="matrix(-1,0,0,1,-883.4,1.7)">
+       transform="matrix(-1,0,0,1,-883.3006,1.7000061)">
       <path
          transform="scale(1,-1)"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-Background"
          id="path947"
          sodipodi:type="arc"
-         sodipodi:cx="-428.8"
-         sodipodi:cy="-451.6"
-         sodipodi:rx="2.999"
+         sodipodi:cx="-428.79999"
+         sodipodi:cy="-451.60001"
+         sodipodi:rx="2.9990001"
          sodipodi:ry="3"
          sodipodi:start="0"
          sodipodi:end="1.571"
@@ -692,14 +692,14 @@
          id="path949"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          class="ColorScheme-ViewHover"
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
        id="south-bottomright"
        transform="matrix(1,0,0,-1,-1.7,928.8)">
       <path
          transform="scale(1,-1)"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-Background"
          id="path958"
          sodipodi:type="arc"
@@ -719,16 +719,16 @@
     </g>
     <g
        id="south-bottomleft"
-       transform="rotate(-180,-441.7,464.5)">
+       transform="rotate(-180,-441.6503,464.45)">
       <path
          transform="scale(1,-1)"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-Background"
          id="path970"
          sodipodi:type="arc"
-         sodipodi:cx="-428.8"
-         sodipodi:cy="-451.6"
-         sodipodi:rx="2.999"
+         sodipodi:cx="-428.79999"
+         sodipodi:cy="-451.60001"
+         sodipodi:rx="2.9990001"
          sodipodi:ry="3"
          sodipodi:start="0"
          sodipodi:end="1.571"
@@ -738,10 +738,10 @@
          id="path972"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          class="ColorScheme-ViewHover"
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <rect
-       style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+       style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
        class="ColorScheme-Background"
        id="west-center"
        width="24"
@@ -750,29 +750,29 @@
        y="498.1" />
     <g
        id="west-top"
-       transform="translate(-57.46,53.63)">
+       transform="translate(-57.499969,53.600006)">
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="3"
          width="24"
          class="ColorScheme-Background"
          id="rect950"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect953"
          class="ColorScheme-ViewHover"
          width="24"
          height="1"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
     </g>
     <g
        transform="matrix(1,0,0,-1,-57.47,966.6)"
        id="west-bottom">
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect957"
          class="ColorScheme-Background"
          width="24"
@@ -789,57 +789,57 @@
          style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
-       transform="rotate(90,-498.1,454.5)"
+       transform="rotate(90,-498.14999,454.55002)"
        id="west-right">
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect963"
          class="ColorScheme-Background"
          width="24"
          height="3"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="1"
          width="24"
          class="ColorScheme-ViewHover"
          id="rect965"
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
-       transform="rotate(-90,-444.6,512.1)"
+       transform="rotate(-90,-444.54999,512.04999)"
        id="west-left">
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect969"
          class="ColorScheme-Background"
          width="24"
          height="3"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="1"
          width="24"
          class="ColorScheme-ViewHover"
          id="rect971"
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
        id="west-topright"
-       transform="translate(-59.26,46.43)">
+       transform="translate(-59.29997,46.500004)">
       <path
          transform="scale(1,-1)"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-Background"
          id="path975"
          sodipodi:type="arc"
-         sodipodi:cx="-428.8"
-         sodipodi:cy="-451.6"
-         sodipodi:rx="2.999"
+         sodipodi:cx="-428.79999"
+         sodipodi:cy="-451.60001"
+         sodipodi:rx="2.9990001"
          sodipodi:ry="3"
          sodipodi:start="0"
          sodipodi:end="1.571"
@@ -849,79 +849,79 @@
          id="path977"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          class="ColorScheme-ViewHover"
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
-       transform="matrix(-1,0,0,1,-941,46.53)"
+       transform="matrix(-1,0,0,1,-940.89998,46.500006)"
        id="west-topleft">
       <path
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z"
          sodipodi:end="1.571"
          sodipodi:start="0"
          sodipodi:ry="3"
-         sodipodi:rx="2.999"
-         sodipodi:cy="-451.6"
-         sodipodi:cx="-428.8"
+         sodipodi:rx="2.9990001"
+         sodipodi:cy="-451.60001"
+         sodipodi:cx="-428.79999"
          sodipodi:type="arc"
          id="path981"
          class="ColorScheme-Background"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          transform="scale(1,-1)" />
       <path
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-ViewHover"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          id="path983"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(1,0,0,-1,-59.26,973.6)"
+       transform="matrix(1,0,0,-1,-59.270006,973.7)"
        id="west-bottomright">
       <path
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z"
          sodipodi:end="1.571"
          sodipodi:start="0"
          sodipodi:ry="3"
-         sodipodi:rx="2.999"
-         sodipodi:cy="-451.6"
-         sodipodi:cx="-428.8"
+         sodipodi:rx="2.9990001"
+         sodipodi:cy="-451.60001"
+         sodipodi:cx="-428.79999"
          sodipodi:type="arc"
          id="path987"
          class="ColorScheme-Background"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          transform="scale(1,-1)" />
       <path
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-ViewHover"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          id="path989"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="rotate(-180,-470.5,486.9)"
+       transform="rotate(-180,-470.45029,486.85001)"
        id="west-bottomleft">
       <path
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z"
          sodipodi:end="1.571"
          sodipodi:start="0"
          sodipodi:ry="3"
-         sodipodi:rx="2.999"
-         sodipodi:cy="-451.6"
-         sodipodi:cx="-428.8"
+         sodipodi:rx="2.9990001"
+         sodipodi:cy="-451.60001"
+         sodipodi:cx="-428.79999"
          sodipodi:type="arc"
          id="path993"
          class="ColorScheme-Background"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          transform="scale(1,-1)" />
       <path
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-ViewHover"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          id="path995"
          inkscape:connector-curvature="0" />
     </g>
     <rect
-       style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+       style="opacity:0.66;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9002;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
        class="ColorScheme-Background"
        id="east-center"
        width="24"
@@ -930,96 +930,96 @@
        y="500.3" />
     <g
        id="east-top"
-       transform="translate(0.838,55.85)">
+       transform="translate(0.80001831,55.799988)">
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="3"
          width="24"
          class="ColorScheme-Background"
          id="rect1299"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect1301"
          class="ColorScheme-ViewHover"
          width="24"
          height="1"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
     </g>
     <g
-       transform="matrix(1,0,0,-1,0.8374,968.8)"
+       transform="matrix(1,0,0,-1,0.80001831,968.79999)"
        id="east-bottom">
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect1305"
          class="ColorScheme-Background"
          width="24"
          height="3"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="1"
          width="24"
          class="ColorScheme-ViewHover"
          id="rect1307"
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
-       transform="rotate(90,-470.1,484.8)"
+       transform="rotate(90,-470.09999,484.8)"
        id="east-right">
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect1311"
          class="ColorScheme-Background"
          width="24"
          height="3"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="1"
          width="24"
          class="ColorScheme-ViewHover"
          id="rect1313"
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
-       transform="rotate(-90,-414.3,484.1)"
+       transform="rotate(-90,-414.3,483.99998)"
        id="east-left">
       <rect
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          id="rect1317"
          class="ColorScheme-Background"
          width="24"
          height="3"
-         x="-454.6"
+         x="-454.60001"
          y="441.5" />
       <rect
          y="441.5"
-         x="-454.6"
+         x="-454.60001"
          height="1"
          width="24"
          class="ColorScheme-ViewHover"
          id="rect1319"
-         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.3;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
        id="east-topright"
-       transform="translate(-0.962,48.65)">
+       transform="translate(-0.99998779,48.699988)">
       <path
          transform="scale(1,-1)"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-Background"
          id="path1323"
          sodipodi:type="arc"
-         sodipodi:cx="-428.8"
-         sodipodi:cy="-451.6"
-         sodipodi:rx="2.999"
+         sodipodi:cx="-428.79999"
+         sodipodi:cy="-451.60001"
+         sodipodi:rx="2.9990001"
          sodipodi:ry="3"
          sodipodi:start="0"
          sodipodi:end="1.571"
@@ -1029,72 +1029,72 @@
          id="path1325"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          class="ColorScheme-ViewHover"
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
-       transform="matrix(-1,0,0,1,-882.7,48.75)"
+       transform="matrix(-1,0,0,1,-882.59999,48.699988)"
        id="east-topleft">
       <path
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z"
          sodipodi:end="1.571"
          sodipodi:start="0"
          sodipodi:ry="3"
-         sodipodi:rx="2.999"
-         sodipodi:cy="-451.6"
-         sodipodi:cx="-428.8"
+         sodipodi:rx="2.9990001"
+         sodipodi:cy="-451.60001"
+         sodipodi:cx="-428.79999"
          sodipodi:type="arc"
          id="path1329"
          class="ColorScheme-Background"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          transform="scale(1,-1)" />
       <path
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-ViewHover"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          id="path1331"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="matrix(1,0,0,-1,-0.962,975.8)"
+       transform="matrix(1,0,0,-1,-0.99938918,975.9)"
        id="east-bottomright">
       <path
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z"
          sodipodi:end="1.571"
          sodipodi:start="0"
          sodipodi:ry="3"
-         sodipodi:rx="2.999"
-         sodipodi:cy="-451.6"
-         sodipodi:cx="-428.8"
+         sodipodi:rx="2.9990001"
+         sodipodi:cy="-451.60001"
+         sodipodi:cx="-428.79999"
          sodipodi:type="arc"
          id="path1335"
          class="ColorScheme-Background"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          transform="scale(1,-1)" />
       <path
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-ViewHover"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          id="path1337"
          inkscape:connector-curvature="0" />
     </g>
     <g
-       transform="rotate(-180,-441.3,488)"
+       transform="rotate(-180,-441.29999,487.94999)"
        id="east-bottomleft">
       <path
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z"
          sodipodi:end="1.571"
          sodipodi:start="0"
          sodipodi:ry="3"
-         sodipodi:rx="2.999"
-         sodipodi:cy="-451.6"
-         sodipodi:cx="-428.8"
+         sodipodi:rx="2.9990001"
+         sodipodi:cy="-451.60001"
+         sodipodi:cx="-428.79999"
          sodipodi:type="arc"
          id="path1341"
          class="ColorScheme-Background"
-         style="opacity:0.3;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.66000001;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          transform="scale(1,-1)" />
       <path
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.9001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          class="ColorScheme-ViewHover"
          d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
          id="path1343"

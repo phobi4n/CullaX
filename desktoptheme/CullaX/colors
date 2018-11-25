@@ -1,20 +1,20 @@
 [Colors:Window]
-ForegroundNormal=254,253,245
-BackgroundNormal=67,63,34
+ForegroundNormal=245,249,254
+BackgroundNormal=22,50,79
 
 [Colors:Selection]
-BackgroundNormal=211,194,170
+BackgroundNormal=155,212,226
 
 [Colors:Button]
 ForegroundNormal=248,248,248
-BackgroundNormal=154,138,100
-DecorationFocus=211,194,170
-DecorationHover=211,194,170
+BackgroundNormal=80,144,174
+DecorationFocus=155,212,226
+DecorationHover=155,212,226
 
 [Colors:Compilmentary]
 BackgroundNormal=4,4,222
 
 [Colors:View]
-BackgroundNormal=67,63,34
+BackgroundNormal=22,50,79
 ForegroundNormal=242,242,242
-DecorationHover=154,138,100
+DecorationHover=80,144,174
