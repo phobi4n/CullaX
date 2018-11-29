@@ -36,7 +36,7 @@ BackgroundNormal=aaa
 BackgroundNormal=eee
 
 [Colors:Button]
-ForegroundNormal=248,248,248
+ForegroundNormal=bbb
 BackgroundNormal=fff
 DecorationFocus=eee
 DecorationHover=ggg
@@ -46,7 +46,7 @@ BackgroundNormal=4,4,222
 
 [Colors:View]
 BackgroundNormal=ccc
-ForegroundNormal=242,242,242
+ForegroundNormal=bbb
 DecorationHover=ddd"""
 
 
@@ -111,6 +111,16 @@ def fatal(message):
     sys.exit(1)
 
 #---------------- CullaX ------------------------------------------------
+# Use dominant or most saturated color?
+use_saturated = False
+
+# Parse command line
+if len(sys.argv) > 1:
+    args = sys.argv[1:]
+    
+    if 's' in args:
+        use_saturated = True
+
 #Raise flag when finding correct session in plasmarc
 flag = False
 #Holder for current activity ID
@@ -165,23 +175,30 @@ tmp_img = Image.open(wallpaper.rstrip())
 tmp_img = tmp_img.resize((512, 512))
 tmp_img.save(os.path.expanduser('~/.cullax.png'))
 thief = ColorThief(os.path.expanduser('~/.cullax.png'))
-colorslist = thief.get_palette(color_count=3)
+colorslist = thief.get_palette(color_count=9)
+dominant = thief.get_color(quality=2)
 os.remove(os.path.expanduser('~/.cullax.png'))
 
-# Get darkest from palette list
-image_darkest = 766
+if use_saturated:
+    # Get most saturated color from palette list
+    most_saturated = 0
 
-for i in colorslist:
-    local_sum = i[0] + i[1] + i[2]
-    
-    if local_sum < image_darkest:
-        image_darkest = local_sum
-        r_dark = float(i[0])
-        g_dark = float(i[1])
-        b_dark = float(i[2])
-    
-#Convert to HLS for colour ops
-h_base, l_base, s_base = colorsys.rgb_to_hls(r_dark/255, g_dark/255, b_dark/255)
+    for i in colorslist:
+        h_tmp, l_tmp, s_tmp = colorsys.rgb_to_hls(i[0]/255.0, i[1]/255.0, i[2]/255.0)
+        
+        if s_tmp > most_saturated:
+            h_base, l_base, s_base = h_tmp, l_tmp, s_tmp
+            most_saturated = s_tmp
+else:
+    #Use dominant color
+    h_base, l_base, s_base = colorsys.rgb_to_hls(dominant[0]/255.0,dominant[1]/255.0, dominant[2]/255.0)
+
+print("HLS: {} {} {}".format(h_base, l_base, s_base))
+
+l_midlight = l_base
+
+if l_base < 0.4:
+    l_midlight = (l_base + 0.5) / 2.0
 
 if s_base < 0.011:
     s_midlight = 0.0
@@ -189,31 +206,22 @@ if s_base < 0.011:
     h_midlight = 0.0
     h_highlight = 0.0
 else:
-    s_midlight = s_base / 1.5
-    #s_highlight = s_base + ( (1.0 - s_base) / 1.5)
-    s_highlight = s_base
-    h_midlight = h_base - 0.03
+    s_midlight = s_base
+    s_highlight = 1.0
+    h_midlight = h_base
+    h_highlight = h_base 
     
-    if h_midlight < 0.0:
-        h_midlight += 1.0
-    
-    h_highlight = h_base - 0.05
-    
-    if h_highlight < 0.0:
-        h_highlight += 1.0
-    
-
-midlight_color = color_triplet(h_midlight, 0.5, s_midlight)
-highlight_color = color_triplet(h_highlight, 0.75, s_highlight)
-
-
-
-#Default text colour
-foreground = color_triplet(h_base, 0.98, 0.95)
-
 #Panel Background
-#panel_background = (','.join([str(int(r_dark)), str(int(g_dark)), str(int(b_dark))]))
-panel_background = color_triplet(h_base, 0.2, s_base)
+if l_base > 0.7:
+    panel_background = color_triplet(h_base, 0.96, s_base)
+    foreground = color_triplet(h_base, 0.25, 0.05)
+    midlight_color = color_triplet(h_base, 0.7, 0.5)
+    highlight_color = color_triplet(h_highlight, 0.3, s_highlight)
+else:
+    panel_background = color_triplet(h_base, 0.02, s_base)
+    highlight_color = color_triplet(h_highlight, 0.8, s_highlight)
+    midlight_color = color_triplet(h_base, 0.55, s_base)
+    foreground = color_triplet(h_base, 0.98, 0.95)
 
 plasma_colors = plasma_colors.replace('aaa', panel_background)
 plasma_colors = plasma_colors.replace('bbb', foreground)
@@ -248,20 +256,20 @@ except IOError as e:
 
 
 # ---- Set Global Colours ----
-#try:
-    #subprocess.run(['kwriteconfig5', '--file=kdeglobals',
-                    #'--group=Colors:Selection',
-                    #'--key=BackgroundNormal', midlight_color])
-    #subprocess.run(['kwriteconfig5', '--file=kdeglobals',
-                    #'--group=Colors:View',
-                    #'--key=DecorationFocus',
-                    #focus_decoration_color])
-    #subprocess.run(['kwriteconfig5', '--file=kdeglobals',
-                    #'--group=WM',
-                    #'--key=activeBackground',
-                    #midlight_color])
-#except:
-    #fatal("Fatal. Unable to run kwriteconfig.")
+try:
+    subprocess.run(['kwriteconfig5', '--file=kdeglobals',
+                    '--group=Colors:Selection',
+                    '--key=BackgroundNormal', midlight_color])
+    subprocess.run(['kwriteconfig5', '--file=kdeglobals',
+                    '--group=Colors:View',
+                    '--key=DecorationFocus',
+                    midlight_color])
+    subprocess.run(['kwriteconfig5', '--file=kdeglobals',
+                    '--group=WM',
+                    '--key=activeBackground',
+                    midlight_color])
+except:
+    fatal("Fatal. Unable to run kwriteconfig.")
 
 
 #If Culla window dec is active, update it

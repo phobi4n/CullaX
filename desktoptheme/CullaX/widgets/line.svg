@@ -52,8 +52,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.2"
-     inkscape:cx="30.88727"
-     inkscape:cy="34.256657"
+     inkscape:cx="44.815842"
+     inkscape:cy="40.595942"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -96,8 +96,8 @@
          height="24"
          width="1"
          id="lll"
-         class="ColorScheme-Text"
-         style="opacity:1;fill:currentColor;fill-opacity:0.99607843;stroke-width:0.0419079"
+         class="ColorScheme-ViewHover"
+         style="opacity:0.66;fill:currentColor;fill-opacity:0.99607843;stroke-width:0.0419079"
          transform="rotate(90)" />
     </g>
     <g
@@ -113,8 +113,8 @@
          transform="rotate(90)" />
       <rect
          transform="rotate(90)"
-         style="opacity:1;fill:currentColor;fill-opacity:0.99607843;stroke-width:0.0419079"
-         class="ColorScheme-Text"
+         style="opacity:0.66;fill:currentColor;fill-opacity:0.99607843;stroke-width:0.0419079"
+         class="ColorScheme-ViewHover"
          id="rect819"
          width="1"
          height="24"

@@ -25,8 +25,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.4"
-     inkscape:cx="31.534821"
-     inkscape:cy="33.141607"
+     inkscape:cx="48.489772"
+     inkscape:cy="22.201401"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -175,7 +175,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -443,14 +443,6 @@
          height="3"
          x="-454.6"
          y="441.5" />
-      <rect
-         y="441.5"
-         x="-454.6"
-         height="1"
-         width="24"
-         class="ColorScheme-ViewHover"
-         id="HLL"
-         style="opacity:0.7;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
        id="bottom"
@@ -463,14 +455,6 @@
          class="ColorScheme-Background"
          id="rect941"
          style="opacity:0.85;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
-      <rect
-         style="opacity:0.7;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
-         id="rect944"
-         class="ColorScheme-ViewHover"
-         width="24"
-         height="1"
-         x="-454.60001"
-         y="441.5" />
     </g>
     <g
        id="right"
@@ -483,14 +467,6 @@
          class="ColorScheme-Background"
          id="rect952"
          style="opacity:0.85;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.8999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
-      <rect
-         style="opacity:0.7;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.0969;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
-         id="rect954"
-         class="ColorScheme-ViewHover"
-         width="24"
-         height="1"
-         x="-454.6"
-         y="441.5" />
     </g>
     <g
        id="left"
@@ -503,14 +479,6 @@
          class="ColorScheme-Background"
          id="rect962"
          style="opacity:0.85;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.89989996;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
-      <rect
-         style="opacity:0.7;fill:currentColor;fill-opacity:0.4;fill-rule:evenodd;stroke:none;stroke-width:1.09689999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
-         id="rect964"
-         class="ColorScheme-ViewHover"
-         width="24"
-         height="1"
-         x="-454.60001"
-         y="441.5" />
     </g>
     <g
        transform="translate(274.8006,582.49997)"
@@ -528,12 +496,6 @@
          class="ColorScheme-Background"
          style="opacity:0.85;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
          transform="scale(1,-1)" />
-      <path
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
-         class="ColorScheme-ViewHover"
-         d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
-         id="QQA"
-         inkscape:connector-curvature="0" />
     </g>
     <g
        id="topleft"
@@ -551,12 +513,6 @@
          sodipodi:start="0"
          sodipodi:end="1.571"
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path949"
-         d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
-         class="ColorScheme-ViewHover"
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
        id="bottomright"
@@ -574,12 +530,6 @@
          sodipodi:start="0"
          sodipodi:end="1.571"
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path961"
-         d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
-         class="ColorScheme-ViewHover"
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <g
        id="bottomleft"
@@ -597,12 +547,6 @@
          sodipodi:start="0"
          sodipodi:end="1.571"
          d="m -425.80099,-451.60001 a 2.9990001,3 0 0 1 -0.8786,2.12154 2.9990001,3 0 0 1 -2.12101,0.87846 l 6.1e-4,-3 z" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path972"
-         d="m -428.8,448.6 v 1 a 2,2 0 0 1 1.4,0.6 2,2 0 0 1 0.6,1.4 h 1 a 2.999,3 0 0 0 -0.9,-2.1 2.999,3 0 0 0 -2.1,-0.9 z"
-         class="ColorScheme-ViewHover"
-         style="opacity:0.4;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.90009999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
     </g>
     <rect
        y="1034.3661"
