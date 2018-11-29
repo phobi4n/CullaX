@@ -30,9 +30,9 @@
      inkscape:window-height="843"
      id="namedview4532"
      showgrid="false"
-     inkscape:zoom="9.1146064"
-     inkscape:cx="11.4209"
-     inkscape:cy="35.796672"
+     inkscape:zoom="18.229213"
+     inkscape:cx="109.43313"
+     inkscape:cy="30.346219"
      inkscape:current-layer="svg2"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
@@ -342,7 +342,7 @@
      width="24.000013"
      height="24.000013"
      class="ColorScheme-ViewHover"
-     style="fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke-width:2.00000119"
+     style="fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke-width:2.00000119;opacity:0.66"
      transform="scale(-1)"
      ry="0"
      rx="0" />
@@ -829,70 +829,66 @@
      height="6.0000033"
      x="-63.136955"
      y="77.802711" />
-  <g
-     id="g982"
-     transform="translate(74.18317,-190.50589)">
-    <rect
-       y="244.66579"
-       x="34.164333"
-       height="6.0000033"
-       width="2.0000012"
-       id="pressed-hint-top-margin"
-       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       y="36.164333"
-       x="-252.66579"
-       height="6.0000033"
-       width="2.0000012"
-       id="pressed-hint-right-margin"
-       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="rotate(-90)" />
-    <rect
-       transform="rotate(-90)"
-       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="pressed-hint-left-margin"
-       width="2.0000012"
-       height="6.0000033"
-       x="-252.66579"
-       y="28.164333" />
-    <rect
-       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="pressed-hint-bottom-margin"
-       width="2.0000012"
-       height="6.0000033"
-       x="34.164333"
-       y="252.66579" />
-    <rect
-       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="toolbutton-pressed-hint-top-margin"
-       width="2.0000012"
-       height="6.0000033"
-       x="63.463272"
-       y="244.66579" />
-    <rect
-       transform="rotate(-90)"
-       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="toolbutton-pressed-hint-right-margin"
-       width="2.0000012"
-       height="6.0000033"
-       x="-252.66579"
-       y="65.463272" />
-    <rect
-       y="57.463268"
-       x="-252.66579"
-       height="6.0000033"
-       width="2.0000012"
-       id="toolbutton-pressed-hint-left-margin"
-       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="rotate(-90)" />
-    <rect
-       y="252.66579"
-       x="63.463272"
-       height="6.0000033"
-       width="2.0000012"
-       id="toolbutton-pressed-hint-bottom-margin"
-       style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-  </g>
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="pressed-hint-top-margin"
+     width="2.0000012"
+     height="6.0000033"
+     x="108.3475"
+     y="54.159897" />
+  <rect
+     transform="rotate(-90)"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="pressed-hint-right-margin"
+     width="2.0000012"
+     height="6.0000033"
+     x="-62.159897"
+     y="110.3475" />
+  <rect
+     y="102.3475"
+     x="-62.159897"
+     height="6.0000033"
+     width="2.0000012"
+     id="pressed-hint-left-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="rotate(-90)" />
+  <rect
+     y="62.159897"
+     x="108.3475"
+     height="6.0000033"
+     width="2.0000012"
+     id="pressed-hint-bottom-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <rect
+     y="54.159897"
+     x="137.64644"
+     height="6.0000033"
+     width="2.0000012"
+     id="toolbutton-pressed-hint-top-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+  <rect
+     y="139.64644"
+     x="-62.159897"
+     height="6.0000033"
+     width="2.0000012"
+     id="toolbutton-pressed-hint-right-margin"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     transform="rotate(-90)" />
+  <rect
+     transform="rotate(-90)"
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="toolbutton-pressed-hint-left-margin"
+     width="2.0000012"
+     height="6.0000033"
+     x="-62.159897"
+     y="131.64644" />
+  <rect
+     style="fill:#4e9a06;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     id="toolbutton-pressed-hint-bottom-margin"
+     width="2.0000012"
+     height="6.0000033"
+     x="137.64644"
+     y="62.159897" />
   <g
      id="normal-top"
      transform="translate(-1.0971317,8.4753547)">
