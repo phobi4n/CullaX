@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="13.618889"
-     inkscape:cy="11.247101"
+     inkscape:zoom="31.678384"
+     inkscape:cx="26.308879"
+     inkscape:cy="12.974789"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -98,10 +98,10 @@
          id="rect3795" />
       <path
          inkscape:connector-curvature="0"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQA"
          d="m 101.2168,612.02344 a 2.9999998,2.9999998 0 0 0 -2.597659,1.5 h 2.597659 z"
-         style="fill:currentColor;stroke-width:0.03392507" />
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507" />
     </g>
     <g
        id="bar-inactive-left"
@@ -115,10 +115,10 @@
          style="fill:none;stroke-width:0.03392507" />
       <path
          inkscape:connector-curvature="0"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQD"
          d="m 98.619141,613.52344 a 2.9999998,2.9999998 0 0 0 -0.402344,1.57226 2.9999998,2.9999998 0 0 0 0.402344,1.42774 h 2.597659 v -1.5 -1.5 z"
-         style="fill:currentColor;stroke-width:0.03392507" />
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507" />
     </g>
     <g
        id="bar-inactive-bottomleft"
@@ -132,10 +132,10 @@
          style="fill:none;stroke-width:0.03392507" />
       <path
          inkscape:connector-curvature="0"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQF"
          d="m 98.619141,616.52344 a 2.9999998,2.9999998 0 0 0 2.597659,1.5 v -1.5 z"
-         style="fill:currentColor;stroke-width:0.03392507" />
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507" />
     </g>
     <g
        id="bar-inactive-topright"
@@ -148,9 +148,9 @@
          y="610.52344"
          style="fill:none;stroke-width:0.03392507" />
       <path
-         style="fill:currentColor;stroke-width:0.03392507"
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507"
          d="m 101.2168,612.02344 a 2.9999998,2.9999998 0 0 0 -2.597659,1.5 h 2.597659 z"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQC"
          inkscape:connector-curvature="0" />
     </g>
@@ -165,9 +165,9 @@
          width="3"
          id="rect3821" />
       <path
-         style="fill:currentColor;stroke-width:0.03392507"
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507"
          d="m 98.619141,613.52344 a 2.9999998,2.9999998 0 0 0 -0.402344,1.57226 2.9999998,2.9999998 0 0 0 0.402344,1.42774 h 2.597659 v -1.5 -1.5 z"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQE"
          inkscape:connector-curvature="0" />
     </g>
@@ -182,9 +182,9 @@
          width="3"
          id="rect3827" />
       <path
-         style="fill:currentColor;stroke-width:0.03392507"
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507"
          d="m 98.619141,616.52344 a 2.9999998,2.9999998 0 0 0 2.597659,1.5 v -1.5 z"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQH"
          inkscape:connector-curvature="0" />
     </g>
@@ -200,12 +200,12 @@
          style="fill:none;stroke-width:0.03392507" />
       <rect
          id="QQB"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          width="3"
          height="1.5"
          x="102.75642"
          y="610.2807"
-         style="fill:currentColor;stroke-width:0.02398865" />
+         style="opacity:0.25;fill:currentColor;stroke-width:0.02398865" />
     </g>
     <g
        transform="matrix(1,0,0,-1,161.45705,1404.3717)"
@@ -218,8 +218,8 @@
          width="3"
          id="rect3841" />
       <rect
-         style="fill:currentColor;stroke-width:0.02398865"
-         class="ColorScheme-ViewHover"
+         style="opacity:0.25;fill:currentColor;stroke-width:0.02398865"
+         class="ColorScheme-Text"
          y="610.2807"
          x="102.75642"
          height="1.5"
@@ -227,8 +227,8 @@
          id="QQG" />
     </g>
     <rect
-       style="fill:currentColor;stroke-width:0.03392507"
-       class="ColorScheme-ViewHover"
+       style="opacity:0.25;fill:currentColor;stroke-width:0.03392507"
+       class="ColorScheme-Text"
        y="789.59106"
        x="264.21344"
        height="3"

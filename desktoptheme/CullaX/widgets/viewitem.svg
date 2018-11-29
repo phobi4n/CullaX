@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="93.735713"
-     inkscape:cy="17.22"
+     inkscape:zoom="7.919596"
+     inkscape:cx="44.219367"
+     inkscape:cy="49.21657"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -130,30 +130,6 @@
        class="ColorScheme-ViewHover"
        style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.7376;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        transform="rotate(90)" />
-    <path
-       style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.8922;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 167.5,904 v 6 h 6 v -3 -0.5 a 2.499,2.5 0 0 0 -0.7,-1.7 2.499,2.5 0 0 0 -1.8,-0.8 h -0.5 z"
-       class="ColorScheme-ViewHover"
-       id="hover-topright"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="hover-topleft"
-       class="ColorScheme-ViewHover"
-       d="m 103.5,904 v 6 h -6 v -3 -0.5 a 2.499,2.5 0 0 1 0.7,-1.7 2.499,2.5 0 0 1 1.8,-0.8 h 0.5 z"
-       style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.8922;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-    <path
-       inkscape:connector-curvature="0"
-       id="hover-bottomright"
-       class="ColorScheme-ViewHover"
-       d="m 167.5,980 v -6 h 6 v 3 0.5 a 2.499,2.5 0 0 1 -0.7,1.7 2.499,2.5 0 0 1 -1.8,0.8 h -0.5 z"
-       style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.8922;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
-    <path
-       inkscape:connector-curvature="0"
-       id="hover-bottomleft"
-       class="ColorScheme-ViewHover"
-       d="m 103.5,980 v -6 h -6 v 3 0.5 a 2.499,2.5 0 0 0 0.7,1.7 2.499,2.5 0 0 0 1.8,0.8 h 0.5 z"
-       style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.8922;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
     <rect
        style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.4091;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        class="ColorScheme-ViewHover"
@@ -286,5 +262,29 @@
        class="ColorScheme-ViewHover"
        d="m 308,980.3 v -6 h -6 v 3 0.5 a 2.499,2.5 0 0 0 0.7,1.7 2.499,2.5 0 0 0 1.8,0.8 h 0.5 z"
        style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.8922;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    <path
+       style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.22585313;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 167.5,904 v 6 h 6 v -4.5 A 1.5,1.5 0 0 0 172,904 Z"
+       id="hover-topright"
+       class="ColorScheme-ViewHover"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       class="ColorScheme-ViewHover"
+       id="hover-topleft"
+       d="m 103.5,904 v 6 h -6 v -4.5 A 1.5,1.5 0 0 1 99,904 Z"
+       style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.22585313;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    <path
+       inkscape:connector-curvature="0"
+       class="ColorScheme-ViewHover"
+       id="hover-bottomright"
+       d="m 167.5,980 v -6 h 6 v 4.5 A 1.5,1.5 0 0 1 172,980 Z"
+       style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.22585313;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    <path
+       inkscape:connector-curvature="0"
+       class="ColorScheme-ViewHover"
+       id="hover-bottomleft"
+       d="m 103.5,980 v -6 h -6 v 4.5 A 1.5,1.5 0 0 0 99,980 Z"
+       style="opacity:0.7;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.22585313;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
   </g>
 </svg>
