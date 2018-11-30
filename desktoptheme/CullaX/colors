@@ -3,13 +3,13 @@ ForegroundNormal=251,245,254
 BackgroundNormal=5,4,5
 
 [Colors:Selection]
-BackgroundNormal=217,127,255
+BackgroundNormal=215,127,255
 
 [Colors:Button]
 ForegroundNormal=251,245,254
 BackgroundNormal=71,62,75
-DecorationFocus=217,127,255
-DecorationHover=217,127,255
+DecorationFocus=215,127,255
+DecorationHover=215,127,255
 
 [Colors:Compilmentary]
 BackgroundNormal=4,4,222

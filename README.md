@@ -1,11 +1,12 @@
-# CullaX
-Culla will generate a Plasma theme and window decoration colored to match your current wallpaper. Culla requires Python 3.6, **Python Pillow** and **Python ColorThief**.
-
-Installation should be simple. In a terminal run:
+## CullaX
+Culla will generate a Plasma theme and window decoration colored to match your current wallpaper.
+### Installation
+Culla requires Python 3.6 plus the modules **opencv-python** and **scikit-image**. Check your package manager or simply run:
 ```
-./dumb_installer.sh
+sudo pip install opencv-python
+sudo pip install scikit-image
 ```
-This will copy a Plasma and Aurorae theme, a colour scheme and a menu entry which will appear under Settings. Culla will also set the highlight and focus colour in applications but does not overwrite any saved scheme.
+*n.b. your distro may call it pip3*
 
-### Installation Issues
-Depending on your distro you may need to add ~/.local/bin to your PATH.
+
+

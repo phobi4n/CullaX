@@ -3,33 +3,22 @@
 from the current wallpaper"""
 
 import sys
-import random
 import os
 import subprocess
 import time
 import colorsys
-from collections import namedtuple
-from math import sqrt
 import dbus
+from PIL import Image
+import cv2
+import numpy as np
+from skimage import io
 
 if sys.version_info[1] < 6:
     print("Culla requires Python 3.6 or later.")
     sys.exit(1)
 
-try:
-    from PIL import Image
-except ImportError:
-    sys.exit("Python Pillow is required.")
 
-try:
-    from colorthief import ColorThief
-except:
-    sys.exit("Python ColorThief is required.")
-import cv2
-import numpy as np
-from skimage import io
-
-#Colours for our Plasma theme
+#Template for our Plasma theme
 plasma_colors = """[Colors:Window]
 ForegroundNormal=bbb
 BackgroundNormal=aaa
@@ -128,22 +117,6 @@ def fatal(message):
     sys.exit(1)
 
 #---------------- CullaX ------------------------------------------------
-# Use dominant or most saturated color?
-use_saturated = False
-use_darkest = False
-use_overflow = False
-
-# Parse command line
-if len(sys.argv) > 1:
-    args = sys.argv[1:]
-    
-    if 's' in args:
-        use_saturated = True
-    elif 'd' in args:
-        use_darkest = True
-    elif 'o' in args:
-        use_overflow = True
-
 #Raise flag when finding correct session in plasmarc
 flag = False
 #Holder for current activity ID
@@ -195,42 +168,12 @@ if not os.path.isfile(wallpaper):
 
 # Resize to 386x386 - massive speedup for large images
 tmp_img = Image.open(wallpaper.rstrip())
-tmp_img = tmp_img.resize((386, 386))
+tmp_img = tmp_img.resize((256, 256))
 tmp_img.save(os.path.expanduser('~/.cullax.png'))
-thief = ColorThief(os.path.expanduser('~/.cullax.png'))
-colorslist = thief.get_palette(color_count=4)
-dominant = thief.get_color(quality=2)
-#os.remove(os.path.expanduser('~/.cullax.png'))
-#sys.exit(dominant)
-
-if use_saturated:
-    # Get most saturated color from palette list
-    most_saturated = 0
-
-    for i in colorslist:
-        h_tmp, l_tmp, s_tmp = colorsys.rgb_to_hls(i[0]/255.0, i[1]/255.0, i[2]/255.0)
-        
-        if s_tmp > most_saturated:
-            h_base, l_base, s_base = h_tmp, l_tmp, s_tmp
-            most_saturated = s_tmp
-
-elif use_darkest:
-    darkest = 1.0
-
-    for i in colorslist:
-        h_tmp, l_tmp, s_tmp = colorsys.rgb_to_hls(i[0]/255.0, i[1]/255.0, i[2]/255.0)
-    
-        if l_tmp < darkest:
-            h_base, l_base, s_base = h_tmp, l_tmp, s_tmp
-            darkest = s_tmp
-elif use_overflow:
-    dom_overflow = get_dominant_color(os.path.expanduser('~/.cullax.png'))
-    h_base, l_base, s_base = colorsys.rgb_to_hls(dom_overflow[0]/255.0, dom_overflow[1]/255.0, dom_overflow[2]/255.0)
-
-else:
-    #Use dominant color
-    h_base, l_base, s_base = colorsys.rgb_to_hls(dominant[0]/255.0,dominant[1]/255.0, dominant[2]/255.0)
-
+dom_overflow = get_dominant_color(os.path.expanduser('~/.cullax.png'))
+print(dom_overflow)
+h_base, l_base, s_base = colorsys.rgb_to_hls(dom_overflow[0]/255.0, dom_overflow[1]/255.0, dom_overflow[2]/255.0)
+os.remove(os.path.expanduser('~/.cullax.png'))
 
 #h_base, l_base, s_base = colorsys.rgb_to_hls(9/255.0, 15/255.0, 25/255.0)
 print("HLS: {} {} {}".format(h_base, l_base, s_base))
@@ -313,9 +256,9 @@ except:
 
 
 #If Culla window dec is active, update it
-aur_theme = subprocess.run(['kreadconfig5', '--file=kwinrc',
-                            '--group=org.kde.kdecoration2', '--key=theme'], \
-                            stdout=subprocess.PIPE)
+#aur_theme = subprocess.run(['kreadconfig5', '--file=kwinrc',
+                            #'--group=org.kde.kdecoration2', '--key=theme'], \
+                            #stdout=subprocess.PIPE)
 
 #if b'CullaX' in aur_theme.stdout:
     #aurorae(window_decoration_color)
