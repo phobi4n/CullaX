@@ -164,19 +164,20 @@ wallpaper = wallpaper.strip()
 
 if not os.path.isfile(wallpaper):
     sys.exit("I think the wallpaper is {0} but I can't find it. Exiting."
-          .format(wallpaper))
+             .format(wallpaper))
 
 # Resize to 386x386 - massive speedup for large images
 tmp_img = Image.open(wallpaper.rstrip())
 tmp_img = tmp_img.resize((256, 256))
 tmp_img.save(os.path.expanduser('~/.cullax.png'))
-dom_overflow = get_dominant_color(os.path.expanduser('~/.cullax.png'))
-print(dom_overflow)
-h_base, l_base, s_base = colorsys.rgb_to_hls(dom_overflow[0]/255.0, dom_overflow[1]/255.0, dom_overflow[2]/255.0)
+dominant_color = get_dominant_color(os.path.expanduser('~/.cullax.png'))
+print(dominant_color)
+h_base, l_base, s_base = colorsys.rgb_to_hls(dominant_color[0]/255.0,
+                                             dominant_color[1]/255.0,
+                                             dominant_color[2]/255.0)
 os.remove(os.path.expanduser('~/.cullax.png'))
 
-#h_base, l_base, s_base = colorsys.rgb_to_hls(9/255.0, 15/255.0, 25/255.0)
-print("HLS: {} {} {}".format(h_base, l_base, s_base))
+#print("HLS: {} {} {}".format(h_base, l_base, s_base))
 
 l_midlight = l_base
 
@@ -195,14 +196,14 @@ else:
     h_highlight = h_base 
     
 #Panel Background
-if l_base > 0.7:
+if l_base > 0.69:
     panel_background = color_triplet(h_base, 0.96, s_base)
     foreground = color_triplet(h_base, 0.25, 0.05)
     midlight_color = color_triplet(h_base, 0.7, 0.5)
-    highlight_color = color_triplet(h_highlight, 0.3, s_highlight)
+    highlight_color = color_triplet(h_highlight, 0.4, 0.7)
 else:
     panel_background = color_triplet(h_base, 0.02, s_base)
-    highlight_color = color_triplet(h_highlight, 0.75, s_highlight)
+    highlight_color = color_triplet(h_highlight, 0.73, s_highlight)
     midlight_color = color_triplet(h_base, l_midlight, s_midlight)
     foreground = color_triplet(h_base, 0.98, 0.95)
 
