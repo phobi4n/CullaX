@@ -44,7 +44,7 @@ DecorationHover=ddd"""
 # ------ Image Functions ------------------------------------------------
 #https://stackoverflow.com/questions/43111029/how-to-find-the-average-colour-of-an-image-in-python-with-opencv/43111221
 def get_dominant_color(image):
-    img = io.imread(image)
+    img = io.imread(image)[:, :, :3]
     pixels = np.float32(img.reshape(-1, 3))
 
     n_colors = 5
@@ -55,6 +55,10 @@ def get_dominant_color(image):
     _, counts = np.unique(labels, return_counts=True)
 
     return palette[np.argmax(counts)]
+
+def get_average(image):
+    img = io.imread(image)[:, :, :3]
+    return img.mean(axis=0).mean(axis=0)
 
 # ------ Culla Functions ------------------------------------------------
 def color_triplet(h, l, s):
@@ -169,15 +173,20 @@ if not os.path.isfile(wallpaper):
 # Resize to 386x386 - massive speedup for large images
 tmp_img = Image.open(wallpaper.rstrip())
 tmp_img = tmp_img.resize((256, 256))
-tmp_img.save(os.path.expanduser('~/.cullax.png'))
+tmp_img_path = os.path.expanduser('~/.cullax.png')
+tmp_img.save(tmp_img_path)
 dominant_color = get_dominant_color(os.path.expanduser('~/.cullax.png'))
-print(dominant_color)
+avg_color = get_average(tmp_img_path)
 h_base, l_base, s_base = colorsys.rgb_to_hls(dominant_color[0]/255.0,
                                              dominant_color[1]/255.0,
                                              dominant_color[2]/255.0)
-os.remove(os.path.expanduser('~/.cullax.png'))
+h_avg, l_avg, s_avg = colorsys.rgb_to_hls(avg_color[0]/255.0,
+                                          avg_color[1]/255.0,
+                                          avg_color[2]/255.0)
+#os.remove(os.path.expanduser('~/.cullax.png'))
 
-#print("HLS: {} {} {}".format(h_base, l_base, s_base))
+print("HLS Dominant: {} {} {}".format(h_base, l_base, s_base))
+print("HLS Average:  {} {} {}".format(h_avg, l_avg, s_avg))
 
 l_midlight = l_base
 
@@ -195,15 +204,14 @@ else:
     h_midlight = h_base
     h_highlight = h_base 
     
-#Panel Background
-if l_base > 0.69:
+if l_avg > 0.69:
     panel_background = color_triplet(h_base, 0.96, s_base)
     foreground = color_triplet(h_base, 0.25, 0.05)
     midlight_color = color_triplet(h_base, 0.7, 0.5)
-    highlight_color = color_triplet(h_highlight, 0.4, 0.7)
+    highlight_color = color_triplet(h_highlight, 0.5, 0.5)
 else:
-    panel_background = color_triplet(h_base, 0.02, s_base)
-    highlight_color = color_triplet(h_highlight, 0.73, s_highlight)
+    panel_background = color_triplet(h_base, 0.05, s_base)
+    highlight_color = color_triplet(h_highlight, 0.65, s_highlight)
     midlight_color = color_triplet(h_base, l_midlight, s_midlight)
     foreground = color_triplet(h_base, 0.98, 0.95)
 

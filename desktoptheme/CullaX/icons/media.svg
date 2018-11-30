@@ -52,8 +52,8 @@
      inkscape:pageopacity="0.13333333"
      inkscape:pageshadow="2"
      inkscape:zoom="15.92"
-     inkscape:cx="31.3"
-     inkscape:cy="19.08"
+     inkscape:cx="27.248492"
+     inkscape:cy="23.822462"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -116,10 +116,10 @@
          width="3.528"
          id="pp1"
          class="ColorScheme-Text"
-         style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.456;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.456;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          rx="0.5141" />
       <rect
-         style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.456;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.456;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          class="ColorScheme-Text"
          id="pp2"
          width="3.528"
@@ -165,7 +165,7 @@
            d="m 214.7,379.3 a 0.7529,0.7529 0 0 0 -0.8,0.7 v 11.3 a 0.7529,0.7529 0 0 0 1.1,0.6 l 9.8,-5.6 a 0.7529,0.7529 0 0 0 0,-1.3 l -9.8,-5.6 a 0.7529,0.7529 0 0 0 -0.3,-0.1 z"
            id="path1484"
            class="ColorScheme-Text"
-           style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.061;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.061;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            inkscape:original="M 214.65039 380.00391 L 214.65039 391.26172 L 224.40039 385.63281 L 214.65039 380.00391 z "
            inkscape:radius="0.7528"
            sodipodi:type="inkscape:offset" />
@@ -177,7 +177,7 @@
            width="2.067"
            id="rect1486"
            class="ColorScheme-Text"
-           style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.4536;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.4536;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            rx="0.514" />
       </g>
     </g>
@@ -199,12 +199,12 @@
            inkscape:radius="0.75277585"
            inkscape:original="M 214.65039 380.00391 L 214.65039 391.26172 L 224.40039 385.63281 L 214.65039 380.00391 z "
            class="ColorScheme-Text"
-           style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.06099987;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.06099987;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            id="path1502"
            d="m 214.66797,379.25195 a 0.75285113,0.75285113 0 0 0 -0.76953,0.75196 v 11.25781 a 0.75285113,0.75285113 0 0 0 1.1289,0.65234 l 9.75,-5.6289 a 0.75285113,0.75285113 0 0 0 0,-1.30469 l -9.75,-5.62891 a 0.75285113,0.75285113 0 0 0 -0.35937,-0.0996 z"
            transform="matrix(0.54145787,0,0,0.52975152,129.6376,162.12513)" />
         <rect
-           style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.4535532;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.4535532;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            class="ColorScheme-Text"
            id="rect1504"
            width="2.0669894"
@@ -228,7 +228,7 @@
          transform="translate(-2.7069933,-25.678566)"
          id="g1516">
         <path
-           style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.8528;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.8528;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="M 71.77 7.645 A 0.4077 0.3988 0 0 0 71.38 8.016 L 71.38 14 A 0.4077 0.3988 0 0 0 71.98 14.32 L 76.53 11.78 L 76.53 14 A 0.4077 0.3988 0 0 0 77.12 14.32 L 82.43 11.35 A 0.4077 0.3988 0 0 0 82.43 10.66 L 77.12 7.697 A 0.4077 0.3988 0 0 0 76.96 7.645 A 0.4077 0.3988 0 0 0 76.53 8.016 L 76.53 10.24 L 71.98 7.697 A 0.4077 0.3988 0 0 0 71.81 7.645 A 0.4077 0.3988 0 0 0 71.77 7.645 z "
            transform="translate(170.5,375.4)"
            id="path1510" />
@@ -248,7 +248,7 @@
          id="g1532"
          transform="translate(-2.7069933,-25.678566)">
         <path
-           style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.8528;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.8528;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            d="M 77.04 29.64 A 0.4077 0.3988 0 0 0 76.88 29.7 L 71.57 32.66 A 0.4077 0.3988 0 0 0 71.57 33.35 L 76.88 36.32 A 0.4077 0.3988 0 0 0 77.47 36 L 77.47 33.78 L 82.02 36.32 A 0.4077 0.3988 0 0 0 82.62 36 L 82.62 30.02 A 0.4077 0.3988 0 0 0 82.19 29.64 A 0.4077 0.3988 0 0 0 82.02 29.7 L 77.47 32.24 L 77.47 30.02 A 0.4077 0.3988 0 0 0 77.04 29.64 z "
            transform="matrix(-1,0,0,1,324.5,353.4)"
            id="path1528" />
@@ -269,7 +269,7 @@
          inkscape:radius="0.7528"
          inkscape:original="M 214.65039 380.00391 L 214.65039 391.26172 L 224.40039 385.63281 L 214.65039 380.00391 z "
          class="ColorScheme-Text"
-         style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.4565;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5.4565;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
          id="play1"
          d="m 214.7,379.3 a 0.7529,0.7529 0 0 0 -0.8,0.7 v 11.3 a 0.7529,0.7529 0 0 0 1.1,0.6 l 9.8,-5.6 a 0.7529,0.7529 0 0 0 0,-1.3 l -9.8,-5.6 a 0.7529,0.7529 0 0 0 -0.3,-0.1 z"
          transform="matrix(0.8992,0,0,0.8798,52.17,76.23)" />
@@ -331,7 +331,7 @@
            d="m 214.66797,379.25195 a 0.75285113,0.75285113 0 0 0 -0.76953,0.75196 v 11.25781 a 0.75285113,0.75285113 0 0 0 1.1289,0.65234 l 9.75,-5.6289 a 0.75285113,0.75285113 0 0 0 0,-1.30469 l -9.75,-5.62891 a 0.75285113,0.75285113 0 0 0 -0.35937,-0.0996 z"
            id="path2174"
            class="ColorScheme-Text"
-           style="opacity:0.8;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.06099987;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           style="opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:9.06099987;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
            inkscape:original="M 214.65039 380.00391 L 214.65039 391.26172 L 224.40039 385.63281 L 214.65039 380.00391 z "
            inkscape:radius="0.75277585"
            sodipodi:type="inkscape:offset" />

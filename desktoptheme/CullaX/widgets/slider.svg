@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="59.893579"
-     inkscape:cx="22.791648"
-     inkscape:cy="67.600339"
+     inkscape:zoom="21.175578"
+     inkscape:cx="29.767663"
+     inkscape:cy="51.368022"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -103,10 +103,10 @@
          id="rect3795" />
       <path
          inkscape:connector-curvature="0"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQA"
          d="m 101.2168,612.02344 a 2.9999998,2.9999998 0 0 0 -2.597659,1.5 h 2.597659 z"
-         style="fill:currentColor;stroke-width:0.03392507;opacity:1" />
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507" />
     </g>
     <g
        id="groove-left"
@@ -120,10 +120,10 @@
          style="fill:none;stroke-width:0.03392507" />
       <path
          inkscape:connector-curvature="0"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQD"
          d="m 98.619141,613.52344 a 2.9999998,2.9999998 0 0 0 -0.402344,1.57226 2.9999998,2.9999998 0 0 0 0.402344,1.42774 h 2.597659 v -1.5 -1.5 z"
-         style="fill:currentColor;stroke-width:0.03392507;opacity:1" />
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507" />
     </g>
     <g
        id="groove-bottomleft"
@@ -137,10 +137,10 @@
          style="fill:none;stroke-width:0.03392507" />
       <path
          inkscape:connector-curvature="0"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQF"
          d="m 98.619141,616.52344 a 2.9999998,2.9999998 0 0 0 2.597659,1.5 v -1.5 z"
-         style="fill:currentColor;stroke-width:0.03392507;opacity:1" />
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507" />
     </g>
     <g
        id="groove-topright"
@@ -153,9 +153,9 @@
          y="610.52344"
          style="fill:none;stroke-width:0.03392507" />
       <path
-         style="fill:currentColor;stroke-width:0.03392507;opacity:1"
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507"
          d="m 101.2168,612.02344 a 2.9999998,2.9999998 0 0 0 -2.597659,1.5 h 2.597659 z"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQC"
          inkscape:connector-curvature="0" />
     </g>
@@ -170,9 +170,9 @@
          width="3"
          id="rect3821" />
       <path
-         style="fill:currentColor;stroke-width:0.03392507;opacity:1"
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507"
          d="m 98.619141,613.52344 a 2.9999998,2.9999998 0 0 0 -0.402344,1.57226 2.9999998,2.9999998 0 0 0 0.402344,1.42774 h 2.597659 v -1.5 -1.5 z"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQE"
          inkscape:connector-curvature="0" />
     </g>
@@ -187,9 +187,9 @@
          width="3"
          id="rect3827" />
       <path
-         style="fill:currentColor;stroke-width:0.03392507;opacity:1"
+         style="opacity:0.25;fill:currentColor;stroke-width:0.03392507"
          d="m 98.619141,616.52344 a 2.9999998,2.9999998 0 0 0 2.597659,1.5 v -1.5 z"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          id="QQH"
          inkscape:connector-curvature="0" />
     </g>
@@ -205,12 +205,12 @@
          style="fill:none;stroke-width:0.03392507" />
       <rect
          id="QQB"
-         class="ColorScheme-ViewHover"
+         class="ColorScheme-Text"
          width="3"
          height="1.5"
          x="102.75642"
          y="610.2807"
-         style="fill:currentColor;stroke-width:0.02398865;opacity:1" />
+         style="opacity:0.25;fill:currentColor;stroke-width:0.02398865" />
     </g>
     <g
        transform="matrix(1,0,0,-1,1.1041201,1237.7489)"
@@ -223,8 +223,8 @@
          width="3"
          id="rect3841" />
       <rect
-         style="fill:currentColor;stroke-width:0.02398865;opacity:1"
-         class="ColorScheme-ViewHover"
+         style="opacity:0.25;fill:currentColor;stroke-width:0.02398865"
+         class="ColorScheme-Text"
          y="610.2807"
          x="102.75642"
          height="1.5"
@@ -232,8 +232,8 @@
          id="QQG" />
     </g>
     <rect
-       style="fill:currentColor;stroke-width:0.03392507;opacity:1"
-       class="ColorScheme-ViewHover"
+       style="opacity:0.25;fill:currentColor;stroke-width:0.03392507"
+       class="ColorScheme-Text"
        y="622.9682"
        x="103.86053"
        height="3"
@@ -253,7 +253,7 @@
          style="fill:currentColor;stroke-width:0.03392507"
          d="m 101.2168,612.02344 a 2.9999998,2.9999998 0 0 0 -2.597659,1.5 h 2.597659 z"
          id="AAA"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          inkscape:connector-curvature="0" />
     </g>
     <g
@@ -270,7 +270,7 @@
          style="fill:currentColor;stroke-width:0.03392507"
          d="m 98.619141,613.52344 a 2.9999998,2.9999998 0 0 0 -0.402344,1.57226 2.9999998,2.9999998 0 0 0 0.402344,1.42774 h 2.597659 v -1.5 -1.5 z"
          id="AAD"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          inkscape:connector-curvature="0" />
     </g>
     <g
@@ -287,7 +287,7 @@
          style="fill:currentColor;stroke-width:0.03392507"
          d="m 98.619141,616.52344 a 2.9999998,2.9999998 0 0 0 2.597659,1.5 v -1.5 z"
          id="AAF"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          inkscape:connector-curvature="0" />
     </g>
     <g
@@ -303,7 +303,7 @@
       <path
          inkscape:connector-curvature="0"
          id="AAC"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          d="m 101.2168,612.02344 a 2.9999998,2.9999998 0 0 0 -2.597659,1.5 h 2.597659 z"
          style="fill:currentColor;stroke-width:0.03392507" />
     </g>
@@ -320,7 +320,7 @@
       <path
          inkscape:connector-curvature="0"
          id="AAE"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          d="m 98.619141,613.52344 a 2.9999998,2.9999998 0 0 0 -0.402344,1.57226 2.9999998,2.9999998 0 0 0 0.402344,1.42774 h 2.597659 v -1.5 -1.5 z"
          style="fill:currentColor;stroke-width:0.03392507" />
     </g>
@@ -337,7 +337,7 @@
       <path
          inkscape:connector-curvature="0"
          id="AAH"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          d="m 98.619141,616.52344 a 2.9999998,2.9999998 0 0 0 2.597659,1.5 v -1.5 z"
          style="fill:currentColor;stroke-width:0.03392507" />
     </g>
@@ -357,7 +357,7 @@
          x="102.75642"
          height="1.5"
          width="3"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          id="AAB" />
     </g>
     <g
@@ -376,7 +376,7 @@
          height="1.5"
          x="102.75642"
          y="610.2807"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          style="fill:currentColor;stroke-width:0.02398865" />
     </g>
     <rect
@@ -385,7 +385,7 @@
        height="3"
        x="126.61719"
        y="622.9682"
-       class="ColorScheme-Text"
+       class="ColorScheme-ButtonHover"
        style="fill:currentColor;stroke-width:0.03392507" />
     <circle
        style="fill:#ff0000;stroke-width:3.17457366"
@@ -406,7 +406,7 @@
       <circle
          style="fill:currentColor;stroke-width:3.17457366"
          id="KKK"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          cx="128.02988"
          cy="650.46143"
          r="9" />
@@ -422,12 +422,12 @@
          x="141.2476"
          y="636.38354" />
       <circle
-         r="10"
+         r="11.086157"
          cy="648.38354"
          cx="153.2476"
          class="ColorScheme-ButtonHover"
          id="WWW"
-         style="fill:currentColor;stroke-width:3.86630154" />
+         style="fill:currentColor;stroke-width:4.28624249" />
     </g>
     <g
        transform="translate(-23.045416,22.111032)"

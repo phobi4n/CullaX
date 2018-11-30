@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6002857"
-     inkscape:cx="69.652648"
-     inkscape:cy="26.150685"
+     inkscape:zoom="15.84"
+     inkscape:cx="47.260651"
+     inkscape:cy="23.840835"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -83,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -152,7 +152,8 @@
        style="opacity:0.75;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.26681554;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
        d="m -154,1058 v 3 h 1 a 1.9995928,2 0 0 0 1.41406,-0.5859 A 1.9995928,2 0 0 0 -151,1059 v -1 z"
        id="bottomright"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       class="ColorScheme-Background" />
     <rect
        y="1009.8586"
        x="-198.67374"
@@ -185,16 +186,19 @@
        inkscape:connector-curvature="0"
        id="bottomleft"
        d="m -178,1058 v 3 h -1 a 1.9995928,2 0 0 1 -1.41406,-0.5859 A 1.9995928,2 0 0 1 -181,1059 v -1 z"
-       style="opacity:0.75;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.26681554;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+       style="opacity:0.75;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.26681554;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+       class="ColorScheme-Background" />
     <path
        inkscape:connector-curvature="0"
        id="topleft"
        d="m -178,1034 v -3 h -1 a 1.9995928,2 0 0 0 -1.41406,0.5859 A 1.9995928,2 0 0 0 -181,1033 v 1 z"
-       style="opacity:0.75;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.26681554;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+       style="opacity:0.75;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.26681554;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+       class="ColorScheme-Background" />
     <path
        inkscape:connector-curvature="0"
        id="topright"
        d="m -154,1034 v -3 h 1 a 1.9995928,2 0 0 1 1.41406,0.5859 A 1.9995928,2 0 0 1 -151,1033 v 1 z"
-       style="opacity:0.75;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.26681554;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal" />
+       style="opacity:0.75;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.26681554;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3476;paint-order:normal"
+       class="ColorScheme-Background" />
   </g>
 </svg>

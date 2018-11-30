@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.643963"
-     inkscape:cx="68.16319"
-     inkscape:cy="-10.354996"
+     inkscape:zoom="26.575852"
+     inkscape:cx="27.105501"
+     inkscape:cy="14.780546"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -72,7 +72,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -223,7 +223,7 @@
        x="-672.26709"
        height="12"
        width="1"
-       class="ColorScheme-Text"
+       class="ColorScheme-ButtonHover"
        id="sunken-slider-center"
        style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.03394168" />
     <rect
@@ -231,12 +231,12 @@
        x="-672.26709"
        height="4"
        width="1"
-       class="ColorScheme-Text"
+       class="ColorScheme-ButtonHover"
        id="sunken-slider-bottom"
        style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.01959624" />
     <rect
        style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.01959624"
-       class="ColorScheme-Text"
+       class="ColorScheme-ButtonHover"
        id="sunken-slider-top"
        width="1"
        height="4"
@@ -254,7 +254,7 @@
          style="opacity:1;fill:none;fill-opacity:1;stroke-width:0.06788336" />
       <rect
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.04800078"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          id="rect861"
          width="2"
          height="12"
@@ -274,7 +274,7 @@
       <path
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.03919248"
          d="m -647.45532,412.54642 v 4 h 2 v -2 a 2,2 0 0 0 -2,-2 z"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          id="path867"
          inkscape:connector-curvature="0" />
     </g>
@@ -290,7 +290,7 @@
          style="opacity:1;fill:none;fill-opacity:1;stroke-width:0.03919248" />
       <path
          inkscape:connector-curvature="0"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          id="path873"
          d="m -647.45532,412.54642 v 4 h 2 v -2 a 2,2 0 0 0 -2,-2 z"
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.03919248" />
@@ -308,7 +308,7 @@
       <path
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.03919248"
          d="m -647.45532,412.54642 v 4 h 2 v -2 a 2,2 0 0 0 -2,-2 z"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          id="path879"
          inkscape:connector-curvature="0" />
     </g>
@@ -324,7 +324,7 @@
          style="opacity:1;fill:none;fill-opacity:1;stroke-width:0.03919248" />
       <path
          inkscape:connector-curvature="0"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          id="path885"
          d="m -647.45532,412.54642 v 4 h 2 v -2 a 2,2 0 0 0 -2,-2 z"
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.03919248" />
@@ -344,7 +344,7 @@
          x="-647.59778"
          height="12"
          width="2"
-         class="ColorScheme-Text"
+         class="ColorScheme-ButtonHover"
          id="rect891"
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke-width:0.04800078" />
     </g>
