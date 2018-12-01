@@ -3,19 +3,15 @@
 from the current wallpaper"""
 
 import sys
-import os
+import pathlib
 import subprocess
 import time
 import colorsys
-import dbus
+#import dbus
 from PIL import Image
 import cv2
 import numpy as np
 from skimage import io
-
-if sys.version_info[1] < 6:
-    print("Culla requires Python 3.6 or later.")
-    sys.exit(1)
 
 
 #Template for our Plasma theme
@@ -42,7 +38,7 @@ DecorationHover=ddd"""
 
 
 # ------ Image Functions ------------------------------------------------
-#https://stackoverflow.com/questions/43111029/how-to-find-the-average-colour-of-an-image-in-python-with-opencv/43111221
+# https://stackoverflow.com/questions/43111029/how-to-find-the-average-colour-of-an-image-in-python-with-opencv/43111221
 def get_dominant_color(image):
     img = io.imread(image)[:, :, :3]
     pixels = np.float32(img.reshape(-1, 3))
@@ -61,6 +57,18 @@ def get_average(image):
     return img.mean(axis=0).mean(axis=0)
 
 # ------ Culla Functions ------------------------------------------------
+def notify_user():
+    icon_path = pathlib.Path.home() / '.local/share/pixmaps/cullax.png'
+    icon = '--icon={}'.format(icon_path)
+    
+    try:
+        subprocess.run(['notify-send',
+                    icon,
+                    '--expire-time=3000',
+                    'CullaX - Reticulating Splines'])
+    except:
+        pass
+
 def color_triplet(h, l, s):
     r, g, b = colorsys.hls_to_rgb(h, l, s)
 
@@ -84,12 +92,11 @@ def aurorae(rgb):
     then write decoration.svg"""
 
     try:
-        with open(os.path.expanduser \
-            ('~/.local/share/aurorae/themes/CullaX/decoration-template.svg')) \
-            as f:
+        with open(pathlib.Path.home() /
+                  '.local/share/aurorae/themes/CullaX/decoration-template.svg') as f:
             auroraetemplate = f.read()
     except IOError:
-        fatal("Unable to find Aurorae template.")
+        sys.exit("Unable to find Aurorae template.")
 
     r, g, b = rgb.split(',')
     hex_colour = f'#{int(r):02x}{int(g):02x}{int(b):02x}'
@@ -100,7 +107,7 @@ def aurorae(rgb):
             ('~/.local/share/aurorae/themes/CullaX/decoration.svg'), 'w') as f:
             f.write(auroraetemplate)
     except IOError:
-        fatal("Fatal. Unable to write aurorae decoration.")
+        sys.exit("Fatal. Unable to write aurorae decoration.")
 
 
     session_bus = dbus.SessionBus()
@@ -113,32 +120,38 @@ def aurorae(rgb):
                         '--key=theme', '__aurorae__svg__CullaX'])
         proxy.reconfigure()
     else:
-        fatal('Unable to find KWin. Is it running?')
+        sys.exit('Unable to find KWin. Is it running?')
 
-def fatal(message):
-    """Something's wrong."""
-    print(message)
-    sys.exit(1)
+
 
 #---------------- CullaX ------------------------------------------------
-#Raise flag when finding correct session in plasmarc
+
+# Required for pathlib if nothing else
+if sys.version_info[1] < 6:
+    sys.exit("Culla requires Python 3.6 or later.")
+
+# Try sending a notification to show we're working
+notify_user()
+
+# Raise flag when finding correct session in plasmarc
 flag = False
-#Holder for current activity ID
+# Holder for current activity ID
 activity = ""
 
 try:
-    with open(os.path.expanduser( \
-        '~/.config/plasma-org.kde.plasma.desktop-appletsrc')) as f:
+    with open(pathlib.Path.home()
+              / '.config/plasma-org.kde.plasma.desktop-appletsrc') as f:
         plasmaconfig = f.readlines()
 except:
-    fatal('Fatal. Unable to find plasma config.')
+    sys.exit('Unable to find plasma config.')
 
 
 try:
-    with open(os.path.expanduser('~/.config/kactivitymanagerdrc')) as f:
+    with open(pathlib.Path.home() 
+              / '.config/kactivitymanagerdrc') as f:
         activityrc = f.readlines()
 except:
-    print('Unable to find kactivity manager rc.')
+    print('Unable to find kactivity manager rc. Presuming only default activity.')
     activityrc = None
     flag = True   #There is only default activity
 
@@ -160,22 +173,23 @@ for line in plasmaconfig:
         break
 
 if not found:
-    print("I didn't find your wallpaper. Have you set one yet?")
-    sys.exit(1)
+    sys.exit("I didn't find your wallpaper. Have you set one yet?")
 
 tmp, wallpaper = line.split('//')
 wallpaper = wallpaper.strip()
 
-if not os.path.isfile(wallpaper):
+if not pathlib.Path(wallpaper).exists():
     sys.exit("I think the wallpaper is {0} but I can't find it. Exiting."
              .format(wallpaper))
 
-# Resize to 386x386 - massive speedup for large images
+# Resize to 256x256 - massive speedup
 tmp_img = Image.open(wallpaper.rstrip())
 tmp_img = tmp_img.resize((256, 256))
-tmp_img_path = os.path.expanduser('~/.cullax.png')
+tmp_img_path = pathlib.Path.home() / '.cullax.png'
 tmp_img.save(tmp_img_path)
-dominant_color = get_dominant_color(os.path.expanduser('~/.cullax.png'))
+
+# Get dominant and average colors
+dominant_color = get_dominant_color(tmp_img_path)
 avg_color = get_average(tmp_img_path)
 h_base, l_base, s_base = colorsys.rgb_to_hls(dominant_color[0]/255.0,
                                              dominant_color[1]/255.0,
@@ -183,15 +197,14 @@ h_base, l_base, s_base = colorsys.rgb_to_hls(dominant_color[0]/255.0,
 h_avg, l_avg, s_avg = colorsys.rgb_to_hls(avg_color[0]/255.0,
                                           avg_color[1]/255.0,
                                           avg_color[2]/255.0)
-#os.remove(os.path.expanduser('~/.cullax.png'))
+
+#Cleanup temp image
+pathlib.Path(tmp_img_path).unlink()
 
 print("HLS Dominant: {} {} {}".format(h_base, l_base, s_base))
 print("HLS Average:  {} {} {}".format(h_avg, l_avg, s_avg))
 
-l_midlight = l_base
-
-if l_base < 0.4:
-    l_midlight = (l_base + 0.5) / 2.0
+l_midlight = 0.4
 
 if s_base < 0.011:
     s_midlight = 0.0
@@ -200,17 +213,25 @@ if s_base < 0.011:
     h_highlight = 0.0
 else:
     s_midlight = s_base
-    s_highlight = 1.0
+    
+    if s_base < 0.4 and s_base > 0.08:
+        s_highlight = 0.5
+    elif s_base < 0.08:
+        s_highlight = 0.1
+    else:
+        s_highlight = 1.0
+    
     h_midlight = h_base
-    h_highlight = h_base 
+    h_highlight = h_base
+    print(s_highlight)
     
 if l_avg > 0.69:
     panel_background = color_triplet(h_base, 0.96, s_base)
     foreground = color_triplet(h_base, 0.25, 0.05)
-    midlight_color = color_triplet(h_base, 0.7, 0.5)
-    highlight_color = color_triplet(h_highlight, 0.5, 0.5)
+    midlight_color = color_triplet(h_base, 0.8, 0.5)
+    highlight_color = color_triplet(h_highlight, 0.6, 0.5)
 else:
-    panel_background = color_triplet(h_base, 0.05, s_base)
+    panel_background = color_triplet(h_base, 0.03, s_base)
     highlight_color = color_triplet(h_highlight, 0.65, s_highlight)
     midlight_color = color_triplet(h_base, l_midlight, s_midlight)
     foreground = color_triplet(h_base, 0.98, 0.95)
@@ -226,11 +247,11 @@ focus_decoration_color = "255,0,0"
 
 
 try:
-    with open(os.path.expanduser( \
-        '~/.local/share/plasma/desktoptheme/CullaX/colors'), 'w') as f:
+    with open(pathlib.Path.home() / '.local/share/plasma/desktoptheme/CullaX/colors',
+              'w') as f:
         f.write(plasma_colors)
 except:
-    fatal("Unable to open Culla Plasma colors. Is it installed?")
+    sys.exit("Unable to open Culla Plasma colors. Is it installed?")
 
 try:
     subprocess.run(['kwriteconfig5', '--file=plasmarc',
@@ -242,8 +263,7 @@ try:
     subprocess.run(['kwriteconfig5', '--file=plasmarc',
                     '--group=Theme', '--key=name', 'CullaX'])
 except IOError as e:
-    print(e)
-    fatal("Fatal. Unable to run kwriteconfig.")
+    sys.exit(e)
 
 
 
@@ -260,8 +280,8 @@ try:
                     '--group=WM',
                     '--key=activeBackground',
                     midlight_color])
-except:
-    fatal("Fatal. Unable to run kwriteconfig.")
+except IOError as e:
+    sys.exit(e)
 
 
 #If Culla window dec is active, update it

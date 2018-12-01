@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=CullaX
+GenericName=CullaX
+NoDisplay=false
+Comment=Colourise the desktop
+Exec=CullaX
+Icon=cullax
+Terminal=false
+MimeType=
+Categories=Settings;DesktopSettings;
+Encoding=UTF-8
+StartupNotify=False
