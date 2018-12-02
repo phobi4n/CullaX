@@ -29,15 +29,15 @@ DecorationFocus=eee
 DecorationHover=ggg
 
 [Colors:Compilmentary]
-BackgroundNormal=4,4,222
+BackgroundNormal=224,4,4
+ForegroundNormal=224,4,22
 
 [Colors:View]
-BackgroundNormal=ccc
+BackgroundNormal=hhh
 ForegroundNormal=bbb
 DecorationHover=ddd"""
 
 
-# ------ Image Functions ------------------------------------------------
 # https://stackoverflow.com/questions/43111029/how-to-find-the-average-colour-of-an-image-in-python-with-opencv/43111221
 def get_dominant_color(image):
     img = io.imread(image)[:, :, :3]
@@ -53,19 +53,20 @@ def get_dominant_color(image):
     return palette[np.argmax(counts)]
 
 def get_average(image):
+    """ Get the average of all pixels munged together"""
     img = io.imread(image)[:, :, :3]
     return img.mean(axis=0).mean(axis=0)
 
-# ------ Culla Functions ------------------------------------------------
 def notify_user():
+    """ Simple notification to show something's happening """
     icon_path = pathlib.Path.home() / '.local/share/pixmaps/cullax.png'
     icon = '--icon={}'.format(icon_path)
-    
+
     try:
         subprocess.run(['notify-send',
-                    icon,
-                    '--expire-time=3000',
-                    'CullaX - Reticulating Splines'])
+                        icon,
+                        '--expire-time=3000',
+                        'CullaX - Reticulating Splines'])
     except:
         pass
 
@@ -86,11 +87,9 @@ def color_triplet(h, l, s):
 
     return ','.join([str(r), str(g), str(b)])
 
-
 def aurorae(rgb):
     """Open decoration template, substitue our colour
     then write decoration.svg"""
-
     try:
         with open(pathlib.Path.home() /
                   '.local/share/aurorae/themes/CullaX/decoration-template.svg') as f:
@@ -109,7 +108,6 @@ def aurorae(rgb):
     except IOError:
         sys.exit("Fatal. Unable to write aurorae decoration.")
 
-
     session_bus = dbus.SessionBus()
 
     if [k for k in session_bus.list_names() if 'KWin' in k]:
@@ -123,9 +121,7 @@ def aurorae(rgb):
         sys.exit('Unable to find KWin. Is it running?')
 
 
-
-#---------------- CullaX ------------------------------------------------
-
+# ----  CullaX  ----
 # Required for pathlib if nothing else
 if sys.version_info[1] < 6:
     sys.exit("Culla requires Python 3.6 or later.")
@@ -147,7 +143,7 @@ except:
 
 
 try:
-    with open(pathlib.Path.home() 
+    with open(pathlib.Path.home()
               / '.config/kactivitymanagerdrc') as f:
         activityrc = f.readlines()
 except:
@@ -213,28 +209,30 @@ if s_base < 0.011:
     h_highlight = 0.0
 else:
     s_midlight = s_base
-    
+
     if s_base < 0.4 and s_base > 0.08:
         s_highlight = 0.5
     elif s_base < 0.08:
         s_highlight = 0.1
     else:
         s_highlight = 1.0
-    
+
     h_midlight = h_base
     h_highlight = h_base
     print(s_highlight)
-    
+
 if l_avg > 0.69:
     panel_background = color_triplet(h_base, 0.96, s_base)
     foreground = color_triplet(h_base, 0.25, 0.05)
     midlight_color = color_triplet(h_base, 0.8, 0.5)
     highlight_color = color_triplet(h_highlight, 0.6, 0.5)
+    clock_hands_color = color_triplet(h_base, 0.45, 0.1)
 else:
     panel_background = color_triplet(h_base, 0.03, s_base)
     highlight_color = color_triplet(h_highlight, 0.65, s_highlight)
     midlight_color = color_triplet(h_base, l_midlight, s_midlight)
     foreground = color_triplet(h_base, 0.98, 0.95)
+    clock_hands_color = color_triplet(h_base, 0.95, 0.7)
 
 plasma_colors = plasma_colors.replace('aaa', panel_background)
 plasma_colors = plasma_colors.replace('bbb', foreground)
@@ -243,6 +241,7 @@ plasma_colors = plasma_colors.replace('ddd', midlight_color)
 plasma_colors = plasma_colors.replace('eee', highlight_color)
 plasma_colors = plasma_colors.replace('fff', midlight_color)
 plasma_colors = plasma_colors.replace('ggg', highlight_color)
+plasma_colors = plasma_colors.replace('hhh', clock_hands_color)
 focus_decoration_color = "255,0,0"
 
 

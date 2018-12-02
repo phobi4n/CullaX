@@ -44,7 +44,8 @@
        fx="-86.059532"
        fy="22.47023"
        r="114.90309"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.042464,0,0,1.042464,3.6544295,-0.95417521)" />
   </defs>
   <style
      id="current-color-scheme"
@@ -79,9 +80,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="13.936592"
-     inkscape:cx="563.1034"
-     inkscape:cy="159.02193"
+     inkscape:zoom="4.6122647"
+     inkscape:cx="548.28789"
+     inkscape:cy="72.102663"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -128,19 +129,19 @@
       <g
          id="g910">
         <circle
-           r="114.90309"
+           r="119.78233"
            cy="22.47023"
            cx="-86.059532"
            id="circle944"
            class="ColorScheme-Background"
-           style="opacity:1;fill:url(#radialGradient952);fill-opacity:1;stroke:none;stroke-width:0.69654548;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+           style="opacity:1;fill:url(#radialGradient952);fill-opacity:1;stroke:none;stroke-width:0.72612357;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
         <circle
-           style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.66134828;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+           style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.6752674;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
            class="ColorScheme-Background"
            id="dial"
            cx="-86.059532"
            cy="22.47023"
-           r="109.09692" />
+           r="111.39303" />
         <g
            id="g1245"
            transform="translate(0.34488223,-0.3129854)">
@@ -306,22 +307,21 @@
       </g>
     </g>
     <g
-       id="HourHand"
-       transform="translate(-0.43052133)">
+       id="HourHand">
       <rect
          y="21.878765"
-         x="189.04533"
+         x="190.28546"
          height="112"
          width="12"
          id="rect918"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.15255499;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="opacity:1;fill:none;fill-opacity:0.26829272;stroke:none;stroke-width:1.15255499;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
       <rect
-         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.56238925;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.56366348;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          id="hhour"
-         class="ColorScheme-Text"
-         width="5"
-         height="64"
-         x="192.54533"
+         class="ColorScheme-ViewBackground"
+         width="5.5"
+         height="58.445778"
+         x="193.53546"
          y="25.221239" />
     </g>
     <g
@@ -331,16 +331,16 @@
          id="rect928"
          width="12"
          height="112"
-         x="251.1364"
+         x="250.5746"
          y="21.829014" />
       <rect
          y="25.215355"
-         x="254.6364"
-         height="93.77668"
-         width="5"
+         x="253.8246"
+         height="79.919991"
+         width="5.5"
          id="mminute"
-         class="ColorScheme-Text"
-         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.68076068;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+         class="ColorScheme-ViewBackground"
+         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.6591301;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
     </g>
     <g
        id="SecondHand">
@@ -352,30 +352,30 @@
          id="rect962"
          style="opacity:0.1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.15255499;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
       <rect
-         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.44464821;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.40175489;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          id="ssecond"
          class="ColorScheme-ButtonHover"
          width="2"
-         height="100.0182"
+         height="81.652275"
          x="309.22986"
          y="25.307823" />
     </g>
     <g
        id="HandCenterScrew">
       <rect
-         y="-19.561764"
-         x="348.89597"
+         y="21.996504"
+         x="362.54001"
          height="16"
          width="16"
          id="rect986"
-         style="opacity:0.5;fill:none;fill-opacity:0.99090911;stroke:none;stroke-width:1.97093165;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+         style="opacity:0.5;fill:none;fill-opacity:1;stroke:none;stroke-width:1.97093165;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
       <circle
-         r="6.5"
-         cy="-11.561764"
-         cx="356.89597"
+         r="6.3541102"
+         cy="29.996504"
+         cx="370.54001"
          id="sscrew"
-         class="ColorScheme-Text"
-         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.93893582;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+         class="ColorScheme-ButtonHover"
+         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.91786182;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
     </g>
   </g>
 </svg>
