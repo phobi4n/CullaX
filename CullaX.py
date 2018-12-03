@@ -3,7 +3,7 @@
 from the current wallpaper"""
 
 import sys
-import pathlib
+import os
 import subprocess
 import time
 import colorsys
@@ -59,7 +59,7 @@ def get_average(image):
 
 def notify_user():
     """ Simple notification to show something's happening """
-    icon_path = pathlib.Path.home() / '.local/share/pixmaps/cullax.png'
+    icon_path = os.path.expanduser('~/.local/share/pixmaps/cullax.png')
     icon = '--icon={}'.format(icon_path)
 
     try:
@@ -87,38 +87,38 @@ def color_triplet(h, l, s):
 
     return ','.join([str(r), str(g), str(b)])
 
-def aurorae(rgb):
-    """Open decoration template, substitue our colour
-    then write decoration.svg"""
-    try:
-        with open(pathlib.Path.home() /
-                  '.local/share/aurorae/themes/CullaX/decoration-template.svg') as f:
-            auroraetemplate = f.read()
-    except IOError:
-        sys.exit("Unable to find Aurorae template.")
+#def aurorae(rgb):
+    #"""Open decoration template, substitue our colour
+    #then write decoration.svg"""
+    #try:
+        #with open(os.path.expanduser(
+                  #'.local/share/aurorae/themes/CullaX/decoration-template.svg')) as f:
+            #auroraetemplate = f.read()
+    #except IOError:
+        #sys.exit("Unable to find Aurorae template.")
 
-    r, g, b = rgb.split(',')
-    hex_colour = f'#{int(r):02x}{int(g):02x}{int(b):02x}'
-    auroraetemplate = auroraetemplate.replace('TEMPLAT', hex_colour)
+    #r, g, b = rgb.split(',')
+    #hex_colour = f'#{int(r):02x}{int(g):02x}{int(b):02x}'
+    #auroraetemplate = auroraetemplate.replace('TEMPLAT', hex_colour)
 
-    try:
-        with open(pathlib.Path.home() /
-            ('.local/share/aurorae/themes/CullaX/decoration.svg'), 'w') as f:
-            f.write(auroraetemplate)
-    except IOError:
-        sys.exit("Fatal. Unable to write aurorae decoration.")
+    #try:
+        #with open(os.path.expanduser(
+                #'~/.local/share/aurorae/themes/CullaX/decoration.svg'), 'w') as f:
+            #f.write(auroraetemplate)
+    #except IOError:
+        #sys.exit("Fatal. Unable to write aurorae decoration.")
 
-    session_bus = dbus.SessionBus()
+    #session_bus = dbus.SessionBus()
 
-    if [k for k in session_bus.list_names() if 'KWin' in k]:
-        proxy = session_bus.get_object('org.kde.KWin', '/KWin')
-        subprocess.run(['kbuildsycoca5'], stderr=subprocess.DEVNULL)
-        subprocess.run(['kwriteconfig5', '--file=kwinrc',
-                        '--group=org.kde.kdecoration2',
-                        '--key=theme', '__aurorae__svg__CullaX'])
-        proxy.reconfigure()
-    else:
-        sys.exit('Unable to find KWin. Is it running?')
+    #if [k for k in session_bus.list_names() if 'KWin' in k]:
+        #proxy = session_bus.get_object('org.kde.KWin', '/KWin')
+        #subprocess.run(['kbuildsycoca5'], stderr=subprocess.DEVNULL)
+        #subprocess.run(['kwriteconfig5', '--file=kwinrc',
+                        #'--group=org.kde.kdecoration2',
+                        #'--key=theme', '__aurorae__svg__CullaX'])
+        #proxy.reconfigure()
+    #else:
+        #sys.exit('Unable to find KWin. Is it running?')
 
 
 # ----  CullaX  ----
@@ -132,16 +132,15 @@ flag = False
 activity = ""
 
 try:
-    with open(pathlib.Path.home()
-              / '.config/plasma-org.kde.plasma.desktop-appletsrc') as f:
+    with open(os.path.expanduser(
+            '~/.config/plasma-org.kde.plasma.desktop-appletsrc')) as f:
         plasmaconfig = f.readlines()
 except:
     sys.exit('Unable to find plasma config.')
 
 
 try:
-    with open(pathlib.Path.home()
-              / '.config/kactivitymanagerdrc') as f:
+    with open(os.path.expanduser('.config/kactivitymanagerdrc')) as f:
         activityrc = f.readlines()
 except:
     print('Unable to find kactivity manager rc. Presuming only default activity.')
@@ -171,14 +170,14 @@ if not found:
 tmp, wallpaper = line.split('//')
 wallpaper = wallpaper.strip()
 
-if not pathlib.Path(wallpaper).exists():
+if not os.path.exists(wallpaper):
     sys.exit("I think the wallpaper is {0} but I can't find it. Exiting."
              .format(wallpaper))
 
 # Resize to 256x256 - massive speedup
 tmp_img = Image.open(wallpaper.rstrip())
 tmp_img = tmp_img.resize((256, 256))
-tmp_img_path = pathlib.Path.home() / '.cullax.png'
+tmp_img_path = os.path.expanduser('.cullax.png')
 tmp_img.save(tmp_img_path)
 
 # Get dominant and average colors
@@ -192,7 +191,7 @@ h_avg, l_avg, s_avg = colorsys.rgb_to_hls(avg_color[0]/255.0,
                                           avg_color[2]/255.0)
 
 #Cleanup temp image
-pathlib.Path(tmp_img_path).unlink()
+os.remove(tmp_img_path)
 
 print("HLS Dominant: {} {} {}".format(h_base, l_base, s_base))
 print("HLS Average:  {} {} {}".format(h_avg, l_avg, s_avg))
@@ -243,8 +242,8 @@ focus_decoration_color = "255,0,0"
 
 
 try:
-    with open(pathlib.Path.home() / '.local/share/plasma/desktoptheme/CullaX/colors',
-              'w') as f:
+    with open(os.path.expanduser(
+            '.local/share/plasma/desktoptheme/CullaX/colors'), 'w') as f:
         f.write(plasma_colors)
 except:
     sys.exit("Unable to open Culla Plasma colors. Is it installed?")
