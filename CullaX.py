@@ -7,7 +7,7 @@ import pathlib
 import subprocess
 import time
 import colorsys
-#import dbus
+import dbus
 from PIL import Image
 import cv2
 import numpy as np
@@ -102,8 +102,8 @@ def aurorae(rgb):
     auroraetemplate = auroraetemplate.replace('TEMPLAT', hex_colour)
 
     try:
-        with open(os.path.expanduser \
-            ('~/.local/share/aurorae/themes/CullaX/decoration.svg'), 'w') as f:
+        with open(pathlib.Path.home() /
+            ('.local/share/aurorae/themes/CullaX/decoration.svg'), 'w') as f:
             f.write(auroraetemplate)
     except IOError:
         sys.exit("Fatal. Unable to write aurorae decoration.")
@@ -122,9 +122,6 @@ def aurorae(rgb):
 
 
 # ----  CullaX  ----
-# Required for pathlib if nothing else
-if sys.version_info[1] < 6:
-    sys.exit("Culla requires Python 3.6 or later.")
 
 # Try sending a notification to show we're working
 notify_user()
@@ -226,9 +223,9 @@ if l_avg > 0.69:
     foreground = color_triplet(h_base, 0.25, 0.05)
     midlight_color = color_triplet(h_base, 0.8, 0.5)
     highlight_color = color_triplet(h_highlight, 0.6, 0.5)
-    clock_hands_color = color_triplet(h_base, 0.45, 0.1)
+    clock_hands_color = color_triplet(h_base, 0.64, 0.05)
 else:
-    panel_background = color_triplet(h_base, 0.03, s_base)
+    panel_background = color_triplet(h_base, 0.07, s_base)
     highlight_color = color_triplet(h_highlight, 0.65, s_highlight)
     midlight_color = color_triplet(h_base, l_midlight, s_midlight)
     foreground = color_triplet(h_base, 0.98, 0.95)

@@ -81,7 +81,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.6122647"
-     inkscape:cx="548.28789"
+     inkscape:cx="496.25272"
      inkscape:cy="72.102663"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -318,11 +318,12 @@
       <rect
          style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.56366348;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          id="hhour"
-         class="ColorScheme-ViewBackground"
+         class="ColorScheme-ButtonHover"
          width="5.5"
          height="58.445778"
          x="193.53546"
-         y="25.221239" />
+         y="25.221239"
+         ry="2.6017587" />
     </g>
     <g
        id="MinuteHand">
@@ -336,11 +337,12 @@
       <rect
          y="25.215355"
          x="253.8246"
-         height="79.919991"
+         height="84.039444"
          width="5.5"
          id="mminute"
-         class="ColorScheme-ViewBackground"
-         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.6591301;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+         class="ColorScheme-ButtonHover"
+         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.67590398;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         ry="2.75" />
     </g>
     <g
        id="SecondHand">
@@ -352,12 +354,12 @@
          id="rect962"
          style="opacity:0.1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.15255499;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
       <rect
-         style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.40175489;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         style="opacity:0.8;fill:currentColor;fill-opacity:1;stroke:none;stroke-width:0.42558435;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
          id="ssecond"
-         class="ColorScheme-ButtonHover"
-         width="2"
-         height="81.652275"
-         x="309.22986"
+         class="ColorScheme-Text"
+         width="2.0993538"
+         height="87.289421"
+         x="309.18018"
          y="25.307823" />
     </g>
     <g
