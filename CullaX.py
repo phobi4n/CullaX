@@ -87,38 +87,40 @@ def color_triplet(h, l, s):
 
     return ','.join([str(r), str(g), str(b)])
 
-#def aurorae(rgb):
-    #"""Open decoration template, substitue our colour
-    #then write decoration.svg"""
-    #try:
-        #with open(os.path.expanduser(
-                  #'.local/share/aurorae/themes/CullaX/decoration-template.svg')) as f:
-            #auroraetemplate = f.read()
-    #except IOError:
-        #sys.exit("Unable to find Aurorae template.")
+def aurorae(active):
+    """Open decoration template, substitue our colour
+    then write decoration.svg"""
+    try:
+        with open(os.path.expanduser(
+                  '~/.local/share/aurorae/themes/CullaX/decoration-template.svg')) as f:
+            auroraetemplate = f.read()
+    except IOError:
+        sys.exit("Unable to find Aurorae template.")
 
-    #r, g, b = rgb.split(',')
-    #hex_colour = f'#{int(r):02x}{int(g):02x}{int(b):02x}'
-    #auroraetemplate = auroraetemplate.replace('TEMPLAT', hex_colour)
+    r, g, b = active.split(',')
+    hex_colour = f'#{int(r):02x}{int(g):02x}{int(b):02x}'
+    auroraetemplate = auroraetemplate.replace('TEMPLAT', hex_colour)
+    #auroraetemplate = auroraetemplate.replace('TEMPLA2', '#f7f7f7')
+    
 
-    #try:
-        #with open(os.path.expanduser(
-                #'~/.local/share/aurorae/themes/CullaX/decoration.svg'), 'w') as f:
-            #f.write(auroraetemplate)
-    #except IOError:
-        #sys.exit("Fatal. Unable to write aurorae decoration.")
+    try:
+        with open(os.path.expanduser(
+                '~/.local/share/aurorae/themes/CullaX/decoration.svg'), 'w') as f:
+            f.write(auroraetemplate)
+    except IOError:
+        sys.exit("Fatal. Unable to write aurorae decoration.")
 
-    #session_bus = dbus.SessionBus()
+    session_bus = dbus.SessionBus()
 
-    #if [k for k in session_bus.list_names() if 'KWin' in k]:
-        #proxy = session_bus.get_object('org.kde.KWin', '/KWin')
-        #subprocess.run(['kbuildsycoca5'], stderr=subprocess.DEVNULL)
-        #subprocess.run(['kwriteconfig5', '--file=kwinrc',
-                        #'--group=org.kde.kdecoration2',
-                        #'--key=theme', '__aurorae__svg__CullaX'])
-        #proxy.reconfigure()
-    #else:
-        #sys.exit('Unable to find KWin. Is it running?')
+    if [k for k in session_bus.list_names() if 'KWin' in k]:
+        proxy = session_bus.get_object('org.kde.KWin', '/KWin')
+        subprocess.run(['kbuildsycoca5'], stderr=subprocess.DEVNULL)
+        subprocess.run(['kwriteconfig5', '--file=kwinrc',
+                        '--group=org.kde.kdecoration2',
+                        '--key=theme', '__aurorae__svg__CullaX'])
+        proxy.reconfigure()
+    else:
+        sys.exit('Unable to find KWin. Is it running?')
 
 
 # ----  CullaX  ----
@@ -140,7 +142,7 @@ except:
 
 
 try:
-    with open(os.path.expanduser('.config/kactivitymanagerdrc')) as f:
+    with open(os.path.expanduser('~/.config/kactivitymanagerdrc')) as f:
         activityrc = f.readlines()
 except:
     print('Unable to find kactivity manager rc. Presuming only default activity.')
@@ -215,7 +217,6 @@ else:
 
     h_midlight = h_base
     h_highlight = h_base
-    print(s_highlight)
 
 if l_avg > 0.69:
     panel_background = color_triplet(h_base, 0.96, s_base)
@@ -223,12 +224,14 @@ if l_avg > 0.69:
     midlight_color = color_triplet(h_base, 0.8, 0.5)
     highlight_color = color_triplet(h_highlight, 0.6, 0.5)
     clock_hands_color = color_triplet(h_base, 0.64, 0.05)
+    focus_decoration_color = highlight_color
 else:
     panel_background = color_triplet(h_base, 0.07, s_base)
     highlight_color = color_triplet(h_highlight, 0.65, s_highlight)
-    midlight_color = color_triplet(h_base, l_midlight, s_midlight)
+    midlight_color = color_triplet(h_base, 0.5, s_midlight)
     foreground = color_triplet(h_base, 0.98, 0.95)
     clock_hands_color = color_triplet(h_base, 0.95, 0.7)
+    focus_decoration_color = color_triplet(h_base, 0.5, s_midlight)
 
 plasma_colors = plasma_colors.replace('aaa', panel_background)
 plasma_colors = plasma_colors.replace('bbb', foreground)
@@ -238,12 +241,11 @@ plasma_colors = plasma_colors.replace('eee', highlight_color)
 plasma_colors = plasma_colors.replace('fff', midlight_color)
 plasma_colors = plasma_colors.replace('ggg', highlight_color)
 plasma_colors = plasma_colors.replace('hhh', clock_hands_color)
-focus_decoration_color = "255,0,0"
 
 
 try:
     with open(os.path.expanduser(
-            '.local/share/plasma/desktoptheme/CullaX/colors'), 'w') as f:
+            '~/.local/share/plasma/desktoptheme/CullaX/colors'), 'w') as f:
         f.write(plasma_colors)
 except:
     sys.exit("Unable to open Culla Plasma colors. Is it installed?")
@@ -279,10 +281,10 @@ except IOError as e:
     sys.exit(e)
 
 
-#If Culla window dec is active, update it
-#aur_theme = subprocess.run(['kreadconfig5', '--file=kwinrc',
-                            #'--group=org.kde.kdecoration2', '--key=theme'], \
-                            #stdout=subprocess.PIPE)
+# If Culla window dec is active, update it
+aur_theme = subprocess.run(['kreadconfig5', '--file=kwinrc',
+                            '--group=org.kde.kdecoration2', '--key=theme'], \
+                            stdout=subprocess.PIPE)
 
-#if b'CullaX' in aur_theme.stdout:
-    #aurorae(window_decoration_color)
+if b'CullaX' in aur_theme.stdout:
+    aurorae(focus_decoration_color)
