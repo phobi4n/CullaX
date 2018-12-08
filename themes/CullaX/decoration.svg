@@ -26,7 +26,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.922504"
-     inkscape:cx="112.68643"
+     inkscape:cx="112.76381"
      inkscape:cy="41.361674"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -56,7 +56,7 @@
        id="decoration-inactive-border"
        osb:paint="solid">
       <stop
-         style="stop-color:#848484;stop-opacity:1;"
+         style="stop-color:#f6f6f6;stop-opacity:1;"
          offset="0"
          id="stop923" />
     </linearGradient>
@@ -539,7 +539,7 @@
          id="rect1459"
          style="opacity:1;fill:url(#linearGradient1465);fill-opacity:1;stroke:none;stroke-width:0.11378558;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
-         style="opacity:1;fill:#3c61c2;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#0f4e89;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="QQD"
          width="3"
          height="26"
@@ -557,7 +557,7 @@
          id="rect1475"
          style="opacity:1;fill:url(#linearGradient1481);fill-opacity:1;stroke:none;stroke-width:0.11378558;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
-         style="opacity:1;fill:#3c61c2;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#0f4e89;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="QQG"
          width="3"
          height="26"
@@ -575,7 +575,7 @@
          x="-610.52759"
          y="654.2627" />
       <rect
-         style="opacity:1;fill:#3c61c2;fill-opacity:1;stroke:none;stroke-width:0.01728527;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="opacity:1;fill:#0f4e89;fill-opacity:1;stroke:none;stroke-width:0.01728527;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="QQH"
          width="3"
          height="3.0000002"
@@ -598,7 +598,7 @@
          height="3.0000002"
          width="3"
          id="QQF"
-         style="opacity:1;fill:#3c61c2;fill-opacity:1;stroke:none;stroke-width:0.01728527;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#0f4e89;fill-opacity:1;stroke:none;stroke-width:0.01728527;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <path
        transform="scale(1,-1)"
@@ -611,7 +611,7 @@
        sodipodi:cx="-659.53571"
        sodipodi:type="arc"
        id="path935"
-       style="opacity:1;fill:#3c61c2;fill-opacity:1;stroke:none;stroke-width:4.27151251;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#0f4e89;fill-opacity:1;stroke:none;stroke-width:4.27151251;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        id="decoration-topright"
        transform="translate(-22.420153,58.768232)">
@@ -638,7 +638,7 @@
            height="26"
            width="3"
            id="QQC"
-           style="fill:#3c61c2;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           style="fill:#0f4e89;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       </g>
     </g>
     <g
@@ -662,7 +662,7 @@
            id="rect889"
            style="opacity:1;fill:url(#linearGradient899);fill-opacity:1;stroke:none;stroke-width:0.11378558;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         <rect
-           style="opacity:1;fill:#3c61c2;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="opacity:1;fill:#0f4e89;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="QQA"
            width="3"
            height="26"
@@ -693,7 +693,7 @@
          height="26"
          width="3"
          id="QQE"
-         style="opacity:1;fill:#3c61c2;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#0f4e89;fill-opacity:1;stroke:none;stroke-width:0.05088646;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="decoration-top"
@@ -722,7 +722,7 @@
          height="32"
          width="26"
          id="QQB"
-         style="fill:#3c61c2;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.16619447;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#0f4e89;opacity:1;fill-opacity:1;stroke:none;stroke-width:0.16619447;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="decoration-inactive-right"
