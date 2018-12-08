@@ -231,7 +231,7 @@ else:
     midlight_color = color_triplet(h_base, 0.5, s_midlight)
     foreground = color_triplet(h_base, 0.98, 0.95)
     clock_hands_color = color_triplet(h_base, 0.95, 0.7)
-    focus_decoration_color = color_triplet(h_base, 0.5, s_midlight)
+    focus_decoration_color = color_triplet(h_base, 0.3, 0.8)
 
 plasma_colors = plasma_colors.replace('aaa', panel_background)
 plasma_colors = plasma_colors.replace('bbb', foreground)
