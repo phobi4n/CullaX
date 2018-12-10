@@ -10,9 +10,9 @@ sudo pip install scikit-image
 
 For Ubuntu users:
 ```
-sudo apt-get install python3-pil
-sudo apt-get install python3-opencv
-sudo apt-get install python3-skimage
+sudo apt install python3-pil
+sudo apt install python3-opencv
+sudo apt install python3-skimage
 ```
 
 
