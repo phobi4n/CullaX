@@ -8,6 +8,14 @@ sudo pip install opencv-python
 sudo pip install scikit-image
 ```
 
+For Ubuntu users:
+```
+sudo apt-get install python3-pil
+sudo apt-get install python-opencv
+sudo apt-get install python-skimage
+```
+
+
 To install, just run ```./install.sh``` which will install the Plasma theme, an Aurorae theme, a menu entry and CullaX itself. The menu entry should appear under Application->Settings.
 
 You will need to select the CullaX window decoration manually.
